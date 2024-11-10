@@ -20,21 +20,21 @@ interface Guide {
 
 const guides: Guide[] = [
   {
-    title: 'Start Recording a Meeting',
-    icon: RecordRegular,
-    text: 'Check out an example of this integration of recording a meeting.',
+    title: 'Optimize Your Fleet with Fleet Stack',
+    icon: AppsAddInRegular,
+    text: 'Optimize Your Fleet: Streamlining Vehicle Management with our Advanced Tools!',
     link: '/guides/capabilities/recording',
   },
   {
-    title: 'Migrate from Twilio',
-    icon: VideoRegular,
-    text: 'Migration simplified. Refer the guide.',
+    title: 'Fleet Stack one touch installation',
+    icon: AppsAddInRegular,
+    text: 'We make it easiest to install and deploy on your own server!',
     link: '/guides/migration/twilio/concepts-twilio-vs-dyte',
   },
   {
-    title: 'Create a Breakout Room',
+    title: 'Adding Geofence',
     icon: AppsAddInRegular,
-    text: 'Easily split a meeting in separate sessions.',
+    text: 'Add Geofence to your vehicle and track easily!',
     link: '/guides/capabilities/breakoutroom/create-breakout-rooms',
   },
 ];
@@ -49,25 +49,20 @@ interface Sample {
 
 const samples: Sample[] = [
   {
-    title: 'Code Sharing Platform',
-    platform: 'React',
-    source: 'https://github.com/dyte-io/blog-live-code-sharing',
-    blog: 'https://dyte.io/blog/live-code-sharing-platform/',
-    demo: 'https://dyte-code-editor.herokuapp.com/room/bbbf8c1f-5eee-4548-90e6-54c1301711cb',
+    title: 'Fleet Stack Live Tracking',
+    platform: 'YouTube',
+    demo: 'https://youtu.be/FuWnQC6SHiM?si=NU7NufoEAYQyb9pX',
   },
   {
-    title: 'Async Interview Platform',
-    platform: 'React',
-    blog: 'https://dyte.io/blog/async-interview-platform/',
-    source: 'https://github.com/dyte-io/async-interview',
-    demo: 'https://dyte-async-interview.vercel.app',
+    title: 'Fleet Stack Mobile application',
+    platform: 'YouTube',
+    demo: 'https://youtu.be/mSEUbK4h560?si=MF5gv7KQK48L8hfb',
   },
   {
-    title: 'Live Proctoring System',
-    platform: 'React',
-    blog: 'https://dyte.io/blog/live-proctoring-system/',
-    source: 'https://github.com/dyte-io/proctored-live-interviews',
-    demo: 'https://dyte-multi-faces.netlify.app/',
+    title: 'Fleet Stack White Labeling Guide',
+    platform: 'YouTube',
+    demo: 'https://youtu.be/3fz92PLZvsc?si=STTMCdxfe_DYrbkg',
+    
   },
 ];
 
@@ -154,13 +149,13 @@ export default function GuidesAndSamples() {
 
       <div className="w-full md:max-w-sm">
         <div className="mb-8 flex items-center justify-between">
-          <h3 className="m-0">Popular sample apps</h3>
+          <h3 className="m-0">Popular Tutorials</h3>
 
           <Link
-            to="https://github.com/dyte-io"
+            to="https://www.youtube.com/@FleetStack/videos"
             className="font-jakarta text-sm font-semibold"
           >
-            All apps <ArrowRightFilled className="ml-1" />
+            All Tutorials <ArrowRightFilled className="ml-1" />
           </Link>
         </div>
 
