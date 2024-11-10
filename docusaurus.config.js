@@ -500,9 +500,9 @@ const config = {
       navbar: {
         logo: {
           href: '/',
-          src: '/logo/light.svg',
-          srcDark: '/logo/dark.svg',
-          alt: 'Dyte Documentation | Dyte Docs',
+          src: '/logo/logo.png',
+          srcDark: '/logo/logo.png',
+          alt: 'Fleet Stack Documentation',
           height: '40px',
           width: '101px',
         },
@@ -544,6 +544,10 @@ const config = {
             label: 'Support',
             to: 'https://dyte.io/contact?type=docs',
           },
+          {
+            label: 'Cotact Us',
+            to: 'https://dyte.io/contact?type=docs',
+          },
 
           {
             type: 'search',
@@ -566,9 +570,9 @@ const config = {
       footer: {
         logo: {
           href: '/',
-          src: '/logo/light.svg',
-          srcDark: '/logo/dark.svg',
-          alt: 'Dyte Documentation | Dyte Docs',
+          src: '/logo/logo.png',
+          srcDark: '/logo/logo.png',
+          alt: 'Fleet Stack Documentation',
           height: '36px',
         },
         links: [
