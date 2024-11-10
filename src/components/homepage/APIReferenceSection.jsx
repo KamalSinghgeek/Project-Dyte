@@ -40,13 +40,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/createMeeting"
                 className="group font-jakarta font-semibold text-current"
               >
-                Create a meeting
+                Get Device Data
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-                Create a meeting for your organization
+                Get data of your GPS Devices
               </div>
             </li>
             <li className="flex flex-col gap-1">
@@ -54,13 +54,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/addPreset"
                 className="group font-jakarta font-semibold text-current"
               >
-                Add a preset
+                Get Overspeed Report 
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-                Add a preset for the given organization ID
+              Receive a comprehensive report on your vehicle's overspeed.
               </div>
             </li>
             <li className="flex flex-col gap-1">
@@ -68,13 +68,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/deleteParticipant"
                 className="group font-jakarta font-semibold text-current"
               >
-                Delete a participant
+                Get Sensor List
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-                Delete a participant from the meeting
+               Get the list of all sensors
               </div>
             </li>
           </ul>
