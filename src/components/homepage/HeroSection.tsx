@@ -2,37 +2,37 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import {
   ChatMultipleRegular,
-  LiveRegular,
-  MicRegular,
+  TextFootnoteFilled,
   VideoRegular,
+  UsbPlugRegular,
 } from '@fluentui/react-icons';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
 
 const PRODUCTS = [
   {
-    title: 'Live Video',
+    title: 'Tutorials',
     link: '/guides/live-video/intro-video-conf',
     icon: VideoRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
-    text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
+    text: 'The most intuitive and streamlined tutorials of Fleet Stack to accelerate your learning',
   },
   {
-    title: 'Voice',
+    title: 'REST API',
     link: '/guides/voice-conf/intro-voice-conf',
-    icon: MicRegular,
+    icon: UsbPlugRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
-    text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
+    text: 'Explore our seamless and robust REST API documentation for effortless integration and development',
   },
   {
-    title: 'Interactive Live Streaming',
+    title: 'Forum',
     link: '/guides/livestream/livestream-overview',
-    icon: LiveRegular,
+    icon: TextFootnoteFilled,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
-    text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
+    text: 'Join our vibrant community forum to discuss, learn, and collaborate on the latest trends and solutions.',
   },
 ];
 
