@@ -8,86 +8,32 @@ import ThemedImage from '@theme/ThemedImage';
 
 const products = [
   {
-    name: 'Live Video',
-    href: 'https://dyte.io/video-sdk',
+    name: 'Mobile App',
+    href: '',
   },
   {
-    name: 'Voice Conferencing',
-    href: 'https://dyte.io/voice-sdk',
+    name: 'Purchase Software',
+    href: '',
   },
   {
-    name: 'Live Streaming',
-    href: 'https://dyte.io/live-streaming-sdk',
-  },
-  {
-    name: 'Chat SDK',
-    href: 'https://dyte.io/chat-sdk',
-  },
-  {
-    name: 'Pricing',
-    href: 'https://dyte.io/pricing',
-  },
-  {
-    name: 'Features',
-    isAccordion: true,
-    content: [
-      {
-        name: 'Plugins',
-        href: 'https://dyte.io/features/plugin',
-      },
-      {
-        name: 'Breakout Rooms',
-        href: 'https://dyte.io/features/breakout-rooms',
-      },
-      {
-        name: 'Recording',
-        href: 'https://dyte.io/features/recording',
-      },
-      {
-        name: 'UI Kit',
-        href: 'https://dyte.io/features/ui-kit',
-      },
-      {
-        name: 'DevEx',
-        href: 'https://dyte.io/features/devex',
-      },
-      {
-        name: 'Security',
-        href: 'https://dyte.io/features/security',
-      },
-      {
-        name: 'AI',
-        href: 'https://dyte.io/features/dyte-ai',
-      },
-      {
-        name: 'Streaming',
-        href: 'https://dyte.io/features/streaming',
-      },
-      {
-        name: 'UX',
-        href: 'https://dyte.io/features/ux',
-      },
-      {
-        name: 'Interatcive',
-        href: 'https://dyte.io/features/interactive',
-      },
-    ],
+    name: 'Build Application',
+    href: '',
   },
 ];
 
 const developers = [
-  {
-    name: 'Developer Portal',
-    href: 'https://accounts.dyte.io/auth/login',
-  },
+  // {
+  //   name: 'Developer Portal',
+  //   href: 'https://accounts.dyte.io/auth/login',
+  // },
   {
     name: 'Documentation',
     href: 'https://docs.dyte.io',
   },
-  {
-    name: 'Showcase',
-    href: 'https://dyte.io/showcase',
-  },
+  // {
+  //   name: 'Showcase',
+  //   href: 'https://dyte.io/showcase',
+  // },
   {
     name: 'API Reference',
     href: '/api',
@@ -96,134 +42,129 @@ const developers = [
     name: 'Guides',
     href: '/guides',
   },
-  {
-    name: 'Platform',
-    isAccordion: true,
-    content: [
-      {
-        name: 'Flutter',
-        href: 'https://dyte.io/flutter-video-sdk',
-      },
-      {
-        name: 'Android',
-        href: 'https://dyte.io/android-video-sdk',
-      },
-      {
-        name: 'iOS',
-        href: 'https://dyte.io/ios-video-sdk',
-      },
-      {
-        name: 'React',
-        href: 'https://dyte.io/react-video-sdk',
-      },
-      {
-        name: 'React Native',
-        href: 'https://dyte.io/react-native-video-sdk',
-      },
-    ],
-  },
-  {
-    name: 'Migrate from Twilio',
-    href: 'https://dyte.io/blog/migrate-twilio-video-dyte-shim/',
-  },
+
+  // {
+  //   name: 'Platform',
+  //   isAccordion: true,
+  //   content: [
+  //     {
+  //       name: 'Flutter',
+  //       href: 'https://dyte.io/flutter-video-sdk',
+  //     },
+  //     {
+  //       name: 'Android',
+  //       href: 'https://dyte.io/android-video-sdk',
+  //     },
+  //     {
+  //       name: 'iOS',
+  //       href: 'https://dyte.io/ios-video-sdk',
+  //     },
+  //     {
+  //       name: 'React',
+  //       href: 'https://dyte.io/react-video-sdk',
+  //     },
+  //     {
+  //       name: 'React Native',
+  //       href: 'https://dyte.io/react-native-video-sdk',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Migrate from Twilio',
+  //   href: 'https://dyte.io/blog/migrate-twilio-video-dyte-shim/',
+  // },
 ];
 
-const usecases = [
-  { name: 'Ed-Tech', href: 'https://dyte.io/use-cases/ed-tech' },
-  { name: 'Telehealth', href: 'https://dyte.io/use-cases/telehealth' },
-  { name: 'HR Tech', href: 'https://dyte.io/use-cases/hr-tech' },
-  { name: 'Fitness', href: 'https://dyte.io/use-cases/fitness' },
-  { name: 'Social', href: 'https://dyte.io/use-cases/social' },
-  { name: 'Gaming', href: 'https://dyte.io/use-cases/gaming' },
-  { name: 'Events', href: 'https://dyte.io/use-cases/events' },
-  { name: 'Dating', href: 'https://dyte.io/use-cases/dating' },
-];
+// const usecases = [
+//   { name: 'Ed-Tech', href: 'https://dyte.io/use-cases/ed-tech' },
+//   { name: 'Telehealth', href: 'https://dyte.io/use-cases/telehealth' },
+//   { name: 'HR Tech', href: 'https://dyte.io/use-cases/hr-tech' },
+//   { name: 'Fitness', href: 'https://dyte.io/use-cases/fitness' },
+//   { name: 'Social', href: 'https://dyte.io/use-cases/social' },
+//   { name: 'Gaming', href: 'https://dyte.io/use-cases/gaming' },
+//   { name: 'Events', href: 'https://dyte.io/use-cases/events' },
+//   { name: 'Dating', href: 'https://dyte.io/use-cases/dating' },
+// ];
 
 const company = [
-  { name: 'About Us', href: 'https://dyte.io/about' },
-  { name: 'Customers', href: 'https://dyte.io/customers' },
-  { name: 'Blog', href: 'https://dyte.io/blog' },
-  { name: 'Careers', href: 'https://jobs.lever.co/dyte-io' },
-  { name: 'Community', href: 'https://dyte.io/community' },
-  { name: 'Startup Program', href: 'https://dyte.io/startups' },
-  { name: 'Contact Us', href: 'https://dyte.io/contact' },
-  { name: 'FAQ', href: '/faq' },
-  { name: 'Guide on Video SDK', href: 'https://dyte.io/blog/video-sdk/' },
+  { name: 'About Us', href: '' },
+  { name: 'Forum', href: '' },
+  { name: 'Contact Us', href: '' },
 ];
 
-const comparisons = [
-  { name: 'Dyte vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
-  { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
-  { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-  { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-  { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
-  {
-    name: 'View 14 more',
-    isAccordion: true,
-    content: [
-      {
-        name: 'Zoom vs Agora',
-        href: 'https://dyte.io/zoom-vs-agora',
-      },
-      {
-        name: 'Agora vs Twilio',
-        href: 'https://dyte.io/agora-vs-twilio',
-      },
-      {
-        name: 'Zoom vs Twilio',
-        href: 'https://dyte.io/zoom-vs-twilio',
-      },
-      {
-        name: 'Agora vs Mux',
-        href: 'https://dyte.io/agora-vs-mux',
-      },
-      {
-        name: 'Zoom vs Whereby',
-        href: 'https://dyte.io/zoom-vs-whereby',
-      },
-      {
-        name: 'Tokbox vs Twilio',
-        href: 'https://dyte.io/tokbox-vs-twilio',
-      },
-      {
-        name: 'Tokbox vs Agora',
-        href: 'https://dyte.io/tokbox-vs-agora',
-      },
-      {
-        name: 'AWS Chime vs Twilio',
-        href: 'https://dyte.io/aws-chime-vs-twilio',
-      },
-      {
-        name: 'Tokbox vs Jitsi',
-        href: 'https://dyte.io/tokbox-vs-jitsi',
-      },
-      {
-        name: 'Zoom vs Jitsi',
-        href: 'https://dyte.io/zoom-vs-jitsi',
-      },
-      {
-        name: 'Agora vs Jitsi',
-        href: 'https://dyte.io/agora-vs-jitsi',
-      },
-      {
-        name: 'Whereby vs Jitsi',
-        href: 'https://dyte.io/whereby-vs-jitsi',
-      },
-      {
-        name: 'Livekit vs Jitsi',
-        href: 'https://dyte.io/livekit-vs-jitsi',
-      },
-      {
-        name: '100ms vs Agora',
-        href: 'https://dyte.io/100ms-vs-agora',
-      },
-      {
-        name: 'Twilio Video Alternatives',
-        href: 'https://dyte.io/blog/twilio-video-alternatives/',
-      },
-    ],
-  },
-];
+// const comparisons = [
+//   { name: 'Dyte vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
+//   { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
+//   { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
+//   { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
+//   { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
+//   {
+//     name: 'View 14 more',
+//     isAccordion: true,
+//     content: [
+//       {
+//         name: 'Zoom vs Agora',
+//         href: 'https://dyte.io/zoom-vs-agora',
+//       },
+//       {
+//         name: 'Agora vs Twilio',
+//         href: 'https://dyte.io/agora-vs-twilio',
+//       },
+//       {
+//         name: 'Zoom vs Twilio',
+//         href: 'https://dyte.io/zoom-vs-twilio',
+//       },
+//       {
+//         name: 'Agora vs Mux',
+//         href: 'https://dyte.io/agora-vs-mux',
+//       },
+//       {
+//         name: 'Zoom vs Whereby',
+//         href: 'https://dyte.io/zoom-vs-whereby',
+//       },
+//       {
+//         name: 'Tokbox vs Twilio',
+//         href: 'https://dyte.io/tokbox-vs-twilio',
+//       },
+//       {
+//         name: 'Tokbox vs Agora',
+//         href: 'https://dyte.io/tokbox-vs-agora',
+//       },
+//       {
+//         name: 'AWS Chime vs Twilio',
+//         href: 'https://dyte.io/aws-chime-vs-twilio',
+//       },
+//       {
+//         name: 'Tokbox vs Jitsi',
+//         href: 'https://dyte.io/tokbox-vs-jitsi',
+//       },
+//       {
+//         name: 'Zoom vs Jitsi',
+//         href: 'https://dyte.io/zoom-vs-jitsi',
+//       },
+//       {
+//         name: 'Agora vs Jitsi',
+//         href: 'https://dyte.io/agora-vs-jitsi',
+//       },
+//       {
+//         name: 'Whereby vs Jitsi',
+//         href: 'https://dyte.io/whereby-vs-jitsi',
+//       },
+//       {
+//         name: 'Livekit vs Jitsi',
+//         href: 'https://dyte.io/livekit-vs-jitsi',
+//       },
+//       {
+//         name: '100ms vs Agora',
+//         href: 'https://dyte.io/100ms-vs-agora',
+//       },
+//       {
+//         name: 'Twilio Video Alternatives',
+//         href: 'https://dyte.io/blog/twilio-video-alternatives/',
+//       },
+//     ],
+//   },
+// ];
 
 function Safety({ className }) {
   return (
@@ -264,8 +205,8 @@ function Status({ className }) {
       sp.status({
         success: function (data) {
           setStatus({
-            indicator: data.status.indicator,
-            description: data.status.description,
+            // indicator: data.status.indicator,
+            // description: data.status.description,
           });
         },
       });
@@ -274,7 +215,7 @@ function Status({ className }) {
 
   return (
     <Link
-      href="https://status.dyte.io"
+      href="/"
       className={clsx(
         'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:hover:bg-[#474747]',
         className
@@ -361,9 +302,9 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-6 gap-y-12 md:justify-between lg:flex lg:flex-wrap">
           <Links name="Product" links={products} />
           <Links name="Developers" links={developers} />
-          <Links name="Usecases" links={usecases} />
+          {/* <Links name="Usecases" links={usecases} /> */}
           <Links name="Company" links={company} />
-          <Links name="Compare" links={comparisons} />
+          {/* <Links name="Compare" links={comparisons} /> */}
         </div>
 
         <hr className="my-12 !bg-gray-300 dark:!bg-[#999]" />
@@ -383,46 +324,36 @@ export default function Footer() {
             >
               Privacy Policy
             </Link>
-            &bull;
+            {/* &bull;
             <Link
               href="https://dyte.io/terms-of-service"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
               Terms of Service
-            </Link>
-            &bull;
+            </Link> */}
+            {/* &bull;
             <Link
               href="https://dyte.io/website-terms-of-use"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
               Website Terms of Use
-            </Link>
-            &bull;
+            </Link> */}
             <span className="text-inherit dark:text-[#999]">
-              &copy; {new Date().getFullYear()} Dyte Inc.
+              &copy; {new Date().getFullYear()} Fleet Stack
             </span>
           </div>
 
           <div className="flex items-center gap-4">
-            <Link
-              href="https://github.com/dyte-io"
-              aria-label="Dyte's GitHub Organization"
-            >
+            <Link href="" aria-label="Dyte's GitHub Organization">
               <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link
-              href="https://linkedin.com/company/dyteio"
-              aria-label="LinkedIn"
-            >
+            <Link href="" aria-label="LinkedIn">
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="https://twitter.com/dyte_io" aria-label="Twitter">
+            <Link href="" aria-label="Twitter">
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link
-              href="https://youtube.com/company/dyteio"
-              aria-label="Dyte YouTube Channel"
-            >
+            <Link href="" aria-label="Dyte YouTube Channel">
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
           </div>
