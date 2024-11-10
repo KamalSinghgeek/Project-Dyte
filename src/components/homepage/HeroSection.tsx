@@ -84,10 +84,11 @@ export default function HeroSection() {
       <section className="no-underline-links px-4 pt-16 lg:py-0">
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
-            We Make It Easiest
+          
+          We Make it Easiest <span className="text-primary-100">Just Deploy</span>
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            We claim to offer the world's easiest ready-to-deploy GPS software
+            We offer the world's easiest ready-to-deploy GPS software
             that overcomes a problem for businesses in need of an in-house fleet
             monitoring platform.
           </p>
