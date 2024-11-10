@@ -21,17 +21,18 @@ export default function APIReferenceSection() {
           <ArrowUpRight className="h-6 w-6 text-zinc-400 dark:text-black" />
         </Link>
         <div className="flex-1">
-          <h2 className="text-4xl">REST API Reference</h2>
+          <h2 className="text-4xl">REST API Documentation</h2>
           <p className="text-zinc-400">
-            Don&apos;t worry, they are&apos;t complex. Use our
-            developer-friendly REST APIs and integrate video and voice communication
-            into your web, mobile, or desktop applications programmatically.
+            Don’t worry, it’s simpler than it seems. Leverage our
+            developer-friendly APIs to seamlessly integrate fleet management,
+            tracking, and communication features into your web, mobile, or
+            desktop applications with ease.
           </p>
           <Link
             href="/api"
             className="font-medium text-primary-100 dark:text-primary"
           >
-            Get started with Dyte REST APIs &rarr;
+            Get started with Fleet Stack's REST APIs &rarr;
           </Link>
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-1">
