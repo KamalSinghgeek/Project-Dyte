@@ -16,7 +16,7 @@ import PhHelloBar from '../components/homepage/PhHelloBar';
 export default function Homepage() {
   return (
     <Layout
-      title="Fleet Satack Documentation"
+      title="Fleet Stack Documentation"
       wrapperClassName="homepage flex flex-col"
       noFooter
     >

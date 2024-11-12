@@ -12,7 +12,7 @@ const meta = {
     'Explore comprehensive documentation for Dyte, including guides, references, and best practices.',
   url: 'https://docs.dyte.io',
   baseUrl: '/',
-  favicon: 'favicon.ico',
+  favicon: 'favicon.png',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
