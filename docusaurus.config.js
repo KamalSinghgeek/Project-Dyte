@@ -503,8 +503,8 @@ const config = {
           src: '/logo/logo.png',
           srcDark: '/logo/logo.png',
           alt: 'Fleet Stack Documentation',
-          height: '40px',
-          width: '101px',
+          height: '60px',
+          width: '230px',
         },
         items: [
           {
