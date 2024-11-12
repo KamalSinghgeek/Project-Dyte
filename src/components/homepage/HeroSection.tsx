@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import {
-  ChatMultipleRegular,
-  TextFootnoteFilled,
+  VideoChatRegular,
   VideoRegular,
   UsbPlugRegular,
 } from '@fluentui/react-icons';
@@ -29,7 +28,7 @@ const PRODUCTS = [
   {
     title: 'Forum',
     link: '/guides/livestream/livestream-overview',
-    icon: TextFootnoteFilled,
+    icon: VideoChatRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
     text: 'Join our vibrant community forum to discuss, learn, and collaborate on the latest trends and solutions.',
@@ -85,7 +84,7 @@ export default function HeroSection() {
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
           
-          We Make it Easiest <span className="text-primary-100">Just Deploy</span>
+          We Make it<span className="text-primary-100"> Easiest </span>Just<span className="text-primary-100"> Deploy</span>
           </h2>
           <p className="max-w-xl text-center text-text-400">
             We offer the world's easiest ready-to-deploy GPS software

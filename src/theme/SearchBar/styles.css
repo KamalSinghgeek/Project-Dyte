@@ -13,3 +13,7 @@
     z-index: calc(var(--ifm-z-index-fixed) + 1);
 }
 
+.text-primary-100 {
+    --tw-text-opacity: 1;
+    color: #0b4bb7;
+}

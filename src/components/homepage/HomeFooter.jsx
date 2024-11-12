@@ -8,11 +8,11 @@ import ThemedImage from '@theme/ThemedImage';
 
 const products = [
   {
-    name: 'Mobile App',
+    name: 'GPS Tracking Software',
     href: '',
   },
   {
-    name: 'Purchase Software',
+    name: 'Mobile App',
     href: '',
   },
   {
