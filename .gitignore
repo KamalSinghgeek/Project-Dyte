@@ -2,7 +2,7 @@
 /node_modules
 
 # Production
-/build
+/build.zip
 .env
 
 # Generated files
