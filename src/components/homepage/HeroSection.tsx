@@ -13,25 +13,25 @@ const PRODUCTS = [
     title: 'Tutorials',
     link: '/guides/live-video/intro-video-conf',
     icon: VideoRegular,
-    lightImage: '/static/landing-page/hero/video-graphic.png',
-    darkImage: '/static/landing-page/hero/video-graphic-dark.png',
+    lightImage: '/static/landing-page/hero/tutorials1.jpg',
+    darkImage: '/static/landing-page/hero/tutorials1.jpg',
     text: 'The most intuitive and streamlined tutorials of Fleet Stack to accelerate your learning',
-  },
-  {
-    title: 'REST API',
-    link: '/guides/voice-conf/intro-voice-conf',
-    icon: UsbPlugRegular,
-    lightImage: '/static/landing-page/hero/voice-graphic.png',
-    darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
-    text: 'Explore our seamless and robust REST API documentation for effortless integration and development',
   },
   {
     title: 'Forum',
     link: '/guides/livestream/livestream-overview',
     icon: VideoChatRegular,
-    lightImage: '/static/landing-page/hero/livestream-graphic.png',
-    darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
+    lightImage: '/static/landing-page/hero/forum1.jpg',
+    darkImage: '/static/landing-page/hero/forum1.jpg',
     text: 'Join our vibrant community forum to discuss, learn, and collaborate on the latest trends and solutions.',
+  },
+  {
+    title: 'REST API',
+    link: '/guides/voice-conf/intro-voice-conf',
+    icon: UsbPlugRegular,
+    lightImage: '/static/landing-page/hero/Rest API.jpg',
+    darkImage: '/static/landing-page/hero/Rest API.jpg',
+    text: 'Explore our robust REST API documentation for effortless integration and development',
   },
 ];
 
@@ -83,12 +83,14 @@ export default function HeroSection() {
       <section className="no-underline-links px-4 pt-16 lg:py-0">
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
-          
-          <span className="text-primary"> We Make it </span><span className="text-primary-100"> Easiest </span> <span className="text-primary">Just</span><span className="text-primary-100"> Deploy</span>
+            <span className="text-primary"> We Make it </span>
+            <span className="text-primary-100"> Easiest </span>{' '}
+            <span className="text-primary">Just</span>
+            <span className="text-primary-100"> Deploy</span>
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            We offer the world's easiest ready-to-deploy GPS software
-            that overcomes a problem for businesses in need of an in-house fleet
+            We offer the world's easiest ready-to-deploy GPS software that
+            overcomes a problem for businesses in need of an in-house fleet
             monitoring platform.
           </p>
         </div>

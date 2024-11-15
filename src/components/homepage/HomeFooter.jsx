@@ -319,7 +319,7 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
             <Link
-              href="https://dyte.io/privacy-policy"
+              href="https://fleetstackglobal.com/privacypolicy"
               className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
             >
               Privacy Policy

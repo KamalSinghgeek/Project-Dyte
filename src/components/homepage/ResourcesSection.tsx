@@ -24,44 +24,44 @@ const ALL_RESOURCES: Resource[] = [
     description:
       'Easily install our software on your own server to gain full control, enhanced customization, and secure data management.',
     image:
-      'https://dyte.io/blog/content/images/size/w1000/2023/02/Dyte-Blog---v2-APIs.jpg',
+      '/static/landing-page/resources/Guide_Image_1.jpg',
     duration: '3 min',
   },
   {
     url: '/guides/v2-migration-guide',
     type: 'blog',
-    title: 'Just Install on your own server',
+    title: 'SuperAdmin Configuration',
     description:
-      'Easily install our software on your own server to gain full control, enhanced customization, and secure data management.',
+      'Effortlessly manage users, permissions, and settings with SuperAdmin Configuration in Fleet Stack GPS software for streamlined fleet operations.',
     image:
-      'https://dyte.io/blog/content/images/size/w1000/2023/02/Dyte-Blog---v2-APIs.jpg',
+      '/static/landing-page/resources/Guide_Image_2.jpg',
     duration: '3 min',
   },
   {
-    url: 'https://www.youtube.com/watch?v=eVUqkNNHh1o',
+    url: 'https://youtu.be/mSEUbK4h560',
     type: 'video',
-    title: 'Fleet Stack Live Tracking',
+    title: 'Fleet Stack Mobile application - Self Hosted GPS Software',
     description:
-      'Experience real-time tracking with Fleet Stack for accurate, up-to-the-minute updates on vehicle locations and performance data.',
-    image: 'https://img.youtube.com/vi/eVUqkNNHh1o/hqdefault.jpg',
-    duration: '5 min',
+      'Fleet Stack mobile application offers real-time GPS tracking, route optimization, and seamless fleet management for operational excellence.',
+    image: '/static/landing-page/resources/Guide_Image_3.jpg',
+    duration: '3 min',
   },
   {
-    url: 'https://www.youtube.com/watch?v=ZkrZc8Neh6A',
+    url: 'https://youtu.be/FYB9xPR-3bE?si=7Hx8YdZRLovxIFkZ',
     type: 'video',
-    title: 'Fleet Stack White Labeling Tutorial',
+    title: 'Empower Your Brand: White Label Your GPS Software with Fleet Stack!',
     description:
-      'Learn how to customize and brand your own tracking solution with the Fleet Stack White Labeling Tutorial.',
-    image: 'https://img.youtube.com/vi/ZkrZc8Neh6A/hqdefault.jpg',
-    duration: '5 min',
+      'Empower your brand effortlessly—white-label Fleet Stack’s GPS software for tailored, scalable, and efficient fleet management solutions!',
+    image: '/static/landing-page/resources/Guide_Image_4.jpg',
+    duration: '1 min',
   },
   {
-    url: 'https://www.youtube.com/watch?v=UHuzWDxrvLk',
+    url: 'https://www.youtube.com/watch?v=RTya4g_SALU',
     type: 'video',
-    title: 'Fleet Stack Mobile application',
-    description: 'Access fleet management on the go with the Fleet Stack Mobile Application for real-time tracking and efficient vehicle management.',
-    image: 'https://img.youtube.com/vi/UHuzWDxrvLk/hqdefault.jpg',
-    duration: '7 min',
+    title: 'FleetStack History Tracking Tutorial: Analyzing Your Fleet Past Routes',
+    description: 'Learn to analyze your fleet past routes effectively with FleetStack History Tracking tutorial, ensuring better operational insights.',
+    image: '/static/landing-page/resources/Guide_Image_5.jpg',
+    duration: '1 min',
   },
 ];
 
@@ -94,9 +94,9 @@ function Resource({
         <p className="leading-snug text-text-400">{description}</p>
       </div>
       <div className="mt-4 flex items-center justify-between">
-        <div className="text-sm text-text-400">
-          {`${duration} ${type === 'Video' ? 'watch' : 'read'}`}
-        </div>
+         <div className="text-sm text-text-400">
+          {`${duration} ${type === 'video' ? 'watch' : 'read'}`}
+        </div> 
       </div>
     </Link>
   );
@@ -136,10 +136,10 @@ export default function ResourcesSection() {
             <h2 className="mb-6 text-4xl">Want to know more about Fleet Stack?</h2>
           </div>
           <Link
-            to="https://dyte.io/blog"
+            to="https://www.youtube.com/@FleetStack/videos"
             className="font-jakarta text-sm font-semibold text-primary"
           >
-            All Blogs <ArrowRightFilled className="ml-1" />
+            All Tutorials <ArrowRightFilled className="ml-1" />
           </Link>
         </div>
 
