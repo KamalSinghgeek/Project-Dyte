@@ -7,7 +7,7 @@ const code_themes = {
 
 /** @type {import('@docusaurus/types').Config} */
 const meta = {
-  title: 'Dyte Docs',
+  title: 'Fleet Stack Docs',
   tagline:
     'Explore comprehensive documentation for Dyte, including guides, references, and best practices.',
   url: 'https://docs.dyte.io',
@@ -513,7 +513,7 @@ const config = {
             className: 'guides-top-header',
           },
           {
-            label: 'SDKs',
+            label: 'Software',
             type: 'dropdown',
             className: 'dyte-dropdown',
             items: [
