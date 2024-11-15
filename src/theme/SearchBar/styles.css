@@ -17,3 +17,8 @@
     --tw-text-opacity: 1;
     color: #0b4bb7;
 }
+
+.text-primary {
+    --tw-text-opacity: 1;
+    color: #18146c;
+}
