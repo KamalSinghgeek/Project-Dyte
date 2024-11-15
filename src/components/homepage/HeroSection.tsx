@@ -84,7 +84,7 @@ export default function HeroSection() {
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
           
-          We Make it<span className="text-primary-100"> Easiest </span>Just<span className="text-primary-100"> Deploy</span>
+          <span className="text-primary"> We Make it </span><span className="text-primary-100"> Easiest </span> <span className="text-primary">Just</span><span className="text-primary-100"> Deploy</span>
           </h2>
           <p className="max-w-xl text-center text-text-400">
             We offer the world's easiest ready-to-deploy GPS software
