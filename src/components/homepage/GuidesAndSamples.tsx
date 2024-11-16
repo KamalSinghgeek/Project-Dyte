@@ -49,7 +49,7 @@ interface Sample {
 
 const samples: Sample[] = [
   {
-    title: 'Fleet Stack Live Tracking',
+    title: 'Fleet Stack Live Tracking Tutorial',
     platform: 'YouTube',
     demo: 'https://youtu.be/FuWnQC6SHiM?si=NU7NufoEAYQyb9pX',
   },
@@ -149,7 +149,7 @@ export default function GuidesAndSamples() {
 
       <div className="w-full md:max-w-sm">
         <div className="mb-8 flex items-center justify-between">
-          <h3 className="m-0">Popular Tutorials</h3>
+          <h3 className="m-0">Popular Video Tutorials</h3>
 
           <Link
             to="https://www.youtube.com/@FleetStack/videos"
