@@ -542,11 +542,15 @@ const config = {
           },
           {
             label: 'Support',
-            to: 'https://dyte.io/contact?type=docs',
+            to: 'https://fleetstackglobal.com/support',
+          },
+          {
+            label: 'Free Tools',
+            to: 'https://fleetstackglobal.com/FreeTools',
           },
           {
             label: 'Cotact Us',
-            to: 'https://dyte.io/contact?type=docs',
+            to: 'https://fleetstackglobal.com/contact',
           },
 
           // {
