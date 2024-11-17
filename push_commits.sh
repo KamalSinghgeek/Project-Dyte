@@ -9,5 +9,6 @@ do
     git push origin HEAD
 
     # Optionally, pause between pushes
-    sleep 5
+    sleep 1
 done
+
