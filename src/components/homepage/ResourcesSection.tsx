@@ -18,23 +18,21 @@ interface Resource {
 
 const ALL_RESOURCES: Resource[] = [
   {
-    url: '/guides/v2-migration-guide',
+    url: '/guides',
     type: 'blog',
     title: 'Just Install on your own server',
     description:
       'Easily install our software on your own server to gain full control, enhanced customization, and secure data management.',
-    image:
-      '/static/landing-page/resources/Guide_Image_1.jpg',
+    image: '/static/landing-page/resources/Guide_Image_1.jpg',
     duration: '3 min',
   },
   {
-    url: '/guides/v2-migration-guide',
+    url: '/guides',
     type: 'blog',
     title: 'SuperAdmin Configuration',
     description:
       'Effortlessly manage users, permissions, and settings with SuperAdmin Configuration in Fleet Stack GPS software for streamlined fleet operations.',
-    image:
-      '/static/landing-page/resources/Guide_Image_2.jpg',
+    image: '/static/landing-page/resources/Guide_Image_2.jpg',
     duration: '3 min',
   },
   {
@@ -49,7 +47,8 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://youtu.be/FYB9xPR-3bE?si=7Hx8YdZRLovxIFkZ',
     type: 'video',
-    title: 'Empower Your Brand: White Label Your GPS Software with Fleet Stack!',
+    title:
+      'Empower Your Brand: White Label Your GPS Software with Fleet Stack!',
     description:
       'Empower your brand effortlessly—white-label Fleet Stack’s GPS software for tailored, scalable, and efficient fleet management solutions!',
     image: '/static/landing-page/resources/Guide_Image_4.jpg',
@@ -58,8 +57,10 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://www.youtube.com/watch?v=RTya4g_SALU',
     type: 'video',
-    title: 'FleetStack History Tracking Tutorial: Analyzing Your Fleet Past Routes',
-    description: 'Learn to analyze your fleet past routes effectively with FleetStack History Tracking tutorial, ensuring better operational insights.',
+    title:
+      'FleetStack History Tracking Tutorial: Analyzing Your Fleet Past Routes',
+    description:
+      'Learn to analyze your fleet past routes effectively with FleetStack History Tracking tutorial, ensuring better operational insights.',
     image: '/static/landing-page/resources/Guide_Image_5.jpg',
     duration: '1 min',
   },
@@ -94,9 +95,9 @@ function Resource({
         <p className="leading-snug text-text-400">{description}</p>
       </div>
       <div className="mt-4 flex items-center justify-between">
-         <div className="text-sm text-text-400">
+        <div className="text-sm text-text-400">
           {`${duration} ${type === 'video' ? 'watch' : 'read'}`}
-        </div> 
+        </div>
       </div>
     </Link>
   );
@@ -133,7 +134,9 @@ export default function ResourcesSection() {
         <div className="flex items-center justify-between">
           <div>
             <span className="dyte-badge">RESOURCES</span>
-            <h2 className="mb-6 text-4xl">Want to know more about Fleet Stack?</h2>
+            <h2 className="mb-6 text-4xl">
+              Want to know more about Fleet Stack?
+            </h2>
           </div>
           <Link
             to="https://www.youtube.com/@FleetStack/videos"
