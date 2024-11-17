@@ -541,25 +541,20 @@ const config = {
             ],
           },
           {
-            label: 'Support',
-            to: 'https://fleetstackglobal.com/support',
-          },
-          {
             label: 'Free Tools',
             to: 'https://fleetstackglobal.com/FreeTools',
           },
           {
-            label: 'Cotact Us',
+            label: 'Contact Us',
             to: 'https://fleetstackglobal.com/contact',
           },
-
-          // {
-          //   type: 'search',
-          //   position: 'right',
-          // },
           {
-            label: 'Book a demo',
-            href: 'https://dyte.io/schedule-demo',
+            label: 'Support',
+            to: 'https://fleetstackglobal.com/support',
+          },
+          {
+            label: 'Book a demo with expert',
+            href: 'https://fleetstackglobal.com/contact',
             position: 'right',
             className: 'navbar-book-demo',
           },
