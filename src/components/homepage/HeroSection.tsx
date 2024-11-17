@@ -11,7 +11,7 @@ import clsx from 'clsx';
 const PRODUCTS = [
   {
     title: 'Tutorials',
-    link: '/guides/live-video/intro-video-conf',
+    link: '/guides',
     icon: VideoRegular,
     lightImage: '/static/landing-page/hero/Tutorial_Home.png',
     darkImage: '/static/landing-page/hero/Tutorial_Home.png',
@@ -19,7 +19,7 @@ const PRODUCTS = [
   },
   {
     title: 'Forum',
-    link: '/guides/livestream/livestream-overview',
+    link: 'https://fleetstackglobal.com/forum',
     icon: VideoChatRegular,
     lightImage: '/static/landing-page/hero/Forum_Home.png',
     darkImage: '/static/landing-page/hero/Forum_Home.png',
@@ -27,7 +27,7 @@ const PRODUCTS = [
   },
   {
     title: 'REST API',
-    link: '/guides/voice-conf/intro-voice-conf',
+    link: '/api',
     icon: UsbPlugRegular,
     lightImage: '/static/landing-page/hero/API_Home.png',
     darkImage: '/static/landing-page/hero/API_Home.png',

@@ -9,31 +9,19 @@ import ThemedImage from '@theme/ThemedImage';
 const products = [
   {
     name: 'GPS Tracking Software',
-    href: '',
+    href: 'https://fleetstackglobal.com/',
   },
   {
-    name: 'Mobile App',
-    href: '',
+    name: 'Build Mobile Application',
+    href: 'https://studio.fleetstackglobal.com/',
   },
   {
-    name: 'Build Application',
-    href: '',
+    name: 'Downloads',
+    href: 'https://fleetstackglobal.com/downloads',
   },
 ];
 
 const developers = [
-  // {
-  //   name: 'Developer Portal',
-  //   href: 'https://accounts.dyte.io/auth/login',
-  // },
-  {
-    name: 'Documentation',
-    href: 'https://docs.dyte.io',
-  },
-  // {
-  //   name: 'Showcase',
-  //   href: 'https://dyte.io/showcase',
-  // },
   {
     name: 'API Reference',
     href: '/api',
@@ -42,129 +30,17 @@ const developers = [
     name: 'Guides',
     href: '/guides',
   },
-
-  // {
-  //   name: 'Platform',
-  //   isAccordion: true,
-  //   content: [
-  //     {
-  //       name: 'Flutter',
-  //       href: 'https://dyte.io/flutter-video-sdk',
-  //     },
-  //     {
-  //       name: 'Android',
-  //       href: 'https://dyte.io/android-video-sdk',
-  //     },
-  //     {
-  //       name: 'iOS',
-  //       href: 'https://dyte.io/ios-video-sdk',
-  //     },
-  //     {
-  //       name: 'React',
-  //       href: 'https://dyte.io/react-video-sdk',
-  //     },
-  //     {
-  //       name: 'React Native',
-  //       href: 'https://dyte.io/react-native-video-sdk',
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: 'Migrate from Twilio',
-  //   href: 'https://dyte.io/blog/migrate-twilio-video-dyte-shim/',
-  // },
+  {
+    name: 'FAQ',
+    href: '/faq',
+  },
 ];
-
-// const usecases = [
-//   { name: 'Ed-Tech', href: 'https://dyte.io/use-cases/ed-tech' },
-//   { name: 'Telehealth', href: 'https://dyte.io/use-cases/telehealth' },
-//   { name: 'HR Tech', href: 'https://dyte.io/use-cases/hr-tech' },
-//   { name: 'Fitness', href: 'https://dyte.io/use-cases/fitness' },
-//   { name: 'Social', href: 'https://dyte.io/use-cases/social' },
-//   { name: 'Gaming', href: 'https://dyte.io/use-cases/gaming' },
-//   { name: 'Events', href: 'https://dyte.io/use-cases/events' },
-//   { name: 'Dating', href: 'https://dyte.io/use-cases/dating' },
-// ];
 
 const company = [
-  { name: 'About Us', href: '' },
-  { name: 'Forum', href: '' },
-  { name: 'Contact Us', href: '' },
+  { name: 'About Us', href: 'https://fleetstackglobal.com/about' },
+  { name: 'Forum', href: 'https://fleetstackglobal.com/forum' },
+  { name: 'Contact Us', href: 'https://fleetstackglobal.com/contact' },
 ];
-
-// const comparisons = [
-//   { name: 'Dyte vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
-//   { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
-//   { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-//   { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-//   { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
-//   {
-//     name: 'View 14 more',
-//     isAccordion: true,
-//     content: [
-//       {
-//         name: 'Zoom vs Agora',
-//         href: 'https://dyte.io/zoom-vs-agora',
-//       },
-//       {
-//         name: 'Agora vs Twilio',
-//         href: 'https://dyte.io/agora-vs-twilio',
-//       },
-//       {
-//         name: 'Zoom vs Twilio',
-//         href: 'https://dyte.io/zoom-vs-twilio',
-//       },
-//       {
-//         name: 'Agora vs Mux',
-//         href: 'https://dyte.io/agora-vs-mux',
-//       },
-//       {
-//         name: 'Zoom vs Whereby',
-//         href: 'https://dyte.io/zoom-vs-whereby',
-//       },
-//       {
-//         name: 'Tokbox vs Twilio',
-//         href: 'https://dyte.io/tokbox-vs-twilio',
-//       },
-//       {
-//         name: 'Tokbox vs Agora',
-//         href: 'https://dyte.io/tokbox-vs-agora',
-//       },
-//       {
-//         name: 'AWS Chime vs Twilio',
-//         href: 'https://dyte.io/aws-chime-vs-twilio',
-//       },
-//       {
-//         name: 'Tokbox vs Jitsi',
-//         href: 'https://dyte.io/tokbox-vs-jitsi',
-//       },
-//       {
-//         name: 'Zoom vs Jitsi',
-//         href: 'https://dyte.io/zoom-vs-jitsi',
-//       },
-//       {
-//         name: 'Agora vs Jitsi',
-//         href: 'https://dyte.io/agora-vs-jitsi',
-//       },
-//       {
-//         name: 'Whereby vs Jitsi',
-//         href: 'https://dyte.io/whereby-vs-jitsi',
-//       },
-//       {
-//         name: 'Livekit vs Jitsi',
-//         href: 'https://dyte.io/livekit-vs-jitsi',
-//       },
-//       {
-//         name: '100ms vs Agora',
-//         href: 'https://dyte.io/100ms-vs-agora',
-//       },
-//       {
-//         name: 'Twilio Video Alternatives',
-//         href: 'https://dyte.io/blog/twilio-video-alternatives/',
-//       },
-//     ],
-//   },
-// ];
 
 function Safety({ className }) {
   return (
@@ -174,20 +50,12 @@ function Safety({ className }) {
         className
       )}
     >
-      <div className="flex flex-1 place-items-center justify-center rounded-2xl bg-white px-4 py-6 font-jakarta font-bold text-gray-500 dark:bg-[#474747] dark:text-[#fff]">
+      {/* <div className="flex flex-1 place-items-center justify-center rounded-2xl bg-white px-4 py-6 font-jakarta font-bold text-gray-500 dark:bg-[#474747] dark:text-[#fff]">
         Your Security,
         <br />
         Our Priority.
-      </div>
-      <div className="flex flex-1 items-center justify-around px-6">
-        <img src="/img/soc-compliant-1.png" alt="SOC Compliant" />
-        <img src="/img/vector.png" alt="HIPAA Compliant" />
-        <img
-          style={{ width: '62px' }}
-          src="/img/gdpr_docs.png"
-          alt="GDPR compliant"
-        />
-      </div>
+      </div> */}
+      <div className="flex flex-1 items-center justify-around px-6"></div>
     </div>
   );
 }
@@ -195,7 +63,7 @@ function Safety({ className }) {
 function Status({ className }) {
   const [status, setStatus] = useState({
     indicator: 'none',
-    description: 'All Systems Operational',
+    description: '',
   });
 
   useEffect(() => {
@@ -286,8 +154,8 @@ export default function Footer() {
             alt="Dyte"
             className="h-9 w-fit lg:h-12"
             sources={{
-              light: '/logo/dyte.svg',
-              dark: '/logo/dyte_dark_logo.svg',
+              light: '/logo/logo.png',
+              dark: '/logo/logo.png',
             }}
           />
 

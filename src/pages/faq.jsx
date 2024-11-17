@@ -166,8 +166,14 @@ export default function FAQPage() {
             Frequently Asked Questions
           </div>
           <div className="my-8 text-center text-4xl font-bold leading-tight text-zinc-800 dark:text-zinc-100 lg:text-6xl">
-            <div>Any questions?</div>
-            <div>We got you.</div>
+            <div className="flex flex-col items-center justify-between py-14">
+              <h2 className="mb-4 font-jakarta text-5xl font-bold">
+                <span className="text-primary"> We Make it </span>
+                <span className="text-primary-100"> Easiest </span>{' '}
+                <span className="text-primary">Just</span>
+                <span className="text-primary-100"> Deploy</span>
+              </h2>
+            </div>
           </div>
           <div className="relative flex w-full max-w-md items-center text-zinc-700 dark:text-white">
             <Search className="z-10 h-5 w-5 translate-x-1.5" />

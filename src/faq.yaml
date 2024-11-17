@@ -2,405 +2,160 @@
 # General FAQs
 #
 
-- question: What does Dyte do?
+- question: What does Fleet Stack do?
   tags: ['General']
   answer: |-
-    Dyte offers a real-time video and voice solution for integrating
-    high-quality video/voice calls into your web, mobile, and desktop
-    applications and websites.
+    Fleet Stack offers comprehensive fleet management solutions with live tracking, real-time reporting, vehicle maintenance scheduling, fuel monitoring, and much more. It provides fleet managers with the tools to optimize performance, reduce costs, and enhance security.
 
-    Call recording, live streaming, webinars,
-    live transcription and translation, chatting, polling, quizzes, and
-    many other features are available with Dyte.
-
-    Dyte includes:
-
-    **Core SDKs:** These SDKs enable you to create high-quality custom
-    video and voice calls with real-time communication. Core SDKs are
-    completely customizable and simple to integrate.
-
-    **UI Kit:** Using Dyte&quot;s prebuilt design library of UI
-    components, you can integrate video and voice calls into your app or
-    website in minutes.
-
-    The following platforms are currently supported:
-
-    - Mobile: Flutter, Android (Java/Kotlin), iOS(Objective-C/Swift), React Native
-    - Web: Javascript Core SDK + UI Kit for React JS, Angular, Web Components for everything else
-    - Desktop: Electron
-
-    For more information, see [Fleet Stack Documentation](/)
-
-- question: What businesses can use Dyte?
+- question: How does Fleet Stack improve fleet productivity?
   tags: ['General']
   answer: |-
-    Dyte can add value to a wide range of industries, including telehealth, eLearning, gaming, remote working, education, event management, metaverse, adult entertainment, and others.
+    Fleet Stack helps improve fleet productivity by offering real-time tracking, automated maintenance scheduling, detailed analytics, and driver behavior monitoring. These features help optimize routes, reduce downtime, and ensure vehicles are operating efficiently.
 
-- question: What is a Developer Portal?
+- question: Does Fleet Stack provide real-time tracking?
+  tags: ['Tracking']
+  answer: |-
+    Yes, Fleet Stack provides real-time GPS tracking for all vehicles in your fleet. Fleet managers can track vehicle locations, speeds, and routes on a live map via the web or mobile app.
+
+- question: Can Fleet Stack monitor fuel consumption in real time?
+  tags: ['Tracking']
+  answer: |-
+    Fleet Stack offers real-time fuel consumption monitoring. This helps fleet managers reduce costs by identifying inefficiencies in fuel usage and optimizing routes and driving behaviors.
+
+- question: What types of fleet monitoring does Fleet Stack offer?
+  tags: ['Tracking']
+  answer: |-
+    Fleet Stack offers a variety of fleet monitoring features including vehicle location tracking, driver behavior analysis, fuel usage monitoring, maintenance alerts, and geofencing for improved fleet management.
+
+- question: How does Fleet Stack enhance vehicle lifecycle management?
   tags: ['General']
   answer: |-
-    To get started with Dyte, you must first register in the [developer portal](https://dev.dyte.io/).
+    Fleet Stack supports vehicle lifecycle management by tracking maintenance schedules, performance data, and usage patterns, allowing fleet managers to plan vehicle replacements and repairs efficiently.
 
-    The developer portal provides the following information:
-
-    - Dashboard: A view of your usage, billing, and organization details etc.
-    - API Keys: The API Keys are required to instantiate a meeting.
-      The values for Organization ID, API Key, and Base URL are generated
-      dynamically for your Organization. You require these settings when
-      performing different actions, such as, create a meeting, delete a
-      meeting, add a participant, etc. Learn more: [Web SDKs](/react-ui-kit), [Mobile SDKs](/rn-core), [APIs](/api).
-    - Logs and Sample Apps: You can view logs and sample apps in developer portal.
-
-    You can also create a webhook, roles, presets, and so on using the developer portal.
-
-- question: What are Presets?
+- question: How does Fleet Stack reduce operational costs?
   tags: ['General']
   answer: |-
-    A set of roles, UI elements, buttons, and configurations that determines how the meeting will appear for a specific participant. Presets can be created using [Developer Portal](https://dev.dyte.io/roles-presets) as well as [REST APIs](https://docs.dyte.io/api#/operations/post-presets). Learn more: [DytePermissionsPreset](/rn-core/reference/DytePermissionsPreset#module_DytePermissionsPreset).
+    By offering real-time tracking, fuel consumption monitoring, and maintenance alerts, Fleet Stack helps businesses optimize their fleet's performance, reduce downtime, and cut fuel costs, ultimately lowering operational expenses.
 
-- question: What are Core SDKs used for?
+- question: Can I customize reports in Fleet Stack?
+  tags: ['Analytics']
+  answer: |-
+    Yes, Fleet Stack allows users to generate customizable reports for fleet performance, fuel consumption, driver behavior, and maintenance schedules. This flexibility helps businesses make data-driven decisions.
+
+- question: Does Fleet Stack offer predictive analytics?
+  tags: ['Analytics']
+  answer: |-
+    Yes, Fleet Stack uses predictive analytics to forecast maintenance needs, vehicle breakdowns, and fuel usage trends, helping fleet managers proactively address issues before they arise.
+
+- question: What types of analytics does Fleet Stack offer?
+  tags: ['Analytics']
+  answer: |-
+    Fleet Stack provides various analytics such as real-time fleet performance, fuel usage, driver behavior, vehicle health reports, and predictive maintenance to help improve fleet operations.
+
+- question: Can Fleet Stack integrate with third-party hardware?
+  tags: ['Integration']
+  answer: |-
+    Yes, Fleet Stack is designed to be compatible with a wide range of third-party hardware, including GPS devices, fuel sensors, dashcams, and telematics equipment, allowing seamless integration for comprehensive fleet management.
+
+- question: Can Fleet Stack be customized for unique business needs?
+  tags: ['Integration']
+  answer: |-
+    Fleet Stack is highly customizable, with flexible APIs and integration options. You can tailor the platform to suit your business’s specific requirements, whether it’s for vehicle tracking, reporting, or fuel management.
+
+- question: How does Fleet Stack track driver compliance with regulations?
+  tags: ['Security']
+  answer: |-
+    Fleet Stack monitors driver behavior and provides alerts for non-compliant activities such as speeding, excessive idling, and harsh driving. It helps ensure that drivers comply with safety regulations and reduces the risk of penalties.
+
+- question: Can Fleet Stack improve driver safety?
+  tags: ['Security']
+  answer: |-
+    Yes, Fleet Stack enhances driver safety by monitoring factors like speed, braking, and acceleration. The platform provides real-time alerts and reports to encourage safe driving practices and reduce accidents.
+
+- question: How does Fleet Stack secure vehicle data?
+  tags: ['Security']
+  answer: |-
+    Fleet Stack uses secure data encryption to protect sensitive vehicle and driver data. The platform ensures that all communication between vehicles, drivers, and fleet managers is safely transmitted and stored.
+
+- question: Can I monitor my fleet using a mobile app?
+  tags: ['Mobile']
+  answer: |-
+    Yes, Fleet Stack offers a mobile app that allows fleet managers to track vehicles, receive alerts, view reports, and monitor driver behavior on the go, ensuring full control from anywhere.
+
+- question: What features does Fleet Stack’s mobile app include?
+  tags: ['Mobile']
+  answer: |-
+    Fleet Stack’s mobile app includes features such as real-time GPS tracking, driver behavior monitoring, fuel consumption alerts, vehicle maintenance tracking, and the ability to receive push notifications for important updates.
+
+- question: Does Fleet Stack offer an open API for developers?
+  tags: ['Integration']
+  answer: |-
+    Yes, Fleet Stack provides a robust API that developers can use to integrate the platform with other tools, customize features, and build advanced solutions for fleet management.
+
+- question: How do I make a payment for Fleet Stack services?
+  tags: ['Pricing']
+  answer: |-
+    Fleet Stack offers flexible payment options, including credit card payments, bank transfers, and custom invoicing. You can easily manage your subscription and payment preferences through the Fleet Stack dashboard.
+
+- question: Is there a free trial available for Fleet Stack?
+  tags: ['Pricing']
+  answer: |-
+    Yes, Fleet Stack offers a free trial period for businesses to try out the platform and explore its features before committing to a paid plan.
+
+- question: What is the cost of Fleet Stack's services?
+  tags: ['Pricing']
+  answer: |-
+    The cost of Fleet Stack’s services depends on the size of your fleet and the features you need. Contact the Fleet Stack sales team for a custom quote based on your specific requirements.
+
+- question: How does Fleet Stack help with vehicle maintenance?
+  tags: ['Maintenance']
+  answer: |-
+    Fleet Stack automates vehicle maintenance schedules by sending alerts for routine servicing and repairs based on vehicle usage, reducing the risk of breakdowns and improving the longevity of your fleet.
+
+- question: Can Fleet Stack track service intervals for vehicles?
+  tags: ['Maintenance']
+  answer: |-
+    Yes, Fleet Stack tracks service intervals for each vehicle in your fleet. It sends reminders for upcoming maintenance, ensuring timely servicing and reducing the risk of expensive repairs.
+
+- question: Does Fleet Stack offer maintenance alerts?
+  tags: ['Maintenance']
+  answer: |-
+    Fleet Stack provides automated maintenance alerts, notifying fleet managers when vehicles are due for service, oil changes, tire rotations, and other essential maintenance tasks.
+
+- question: How does Fleet Stack help with eco-friendly practices?
   tags: ['General']
   answer: |-
-    The Dyte Core SDKs are designed to provide developers with an easy way to incorporate real-time communication (RTC) solutions into their apps and websites. With full customization and branding options, you can build your own UI from the ground up without dealing with complicated media layers. 
+    Fleet Stack promotes eco-friendly practices by providing insights into fuel consumption, driver behavior, and route optimization. This data helps reduce emissions and improve fuel efficiency, contributing to greener fleet management.
 
-    The Core SDK acts as a data-only layer, offering high-level primitives and abstracting away complex media and networking optimizations. It only provides simple APIs that are user-friendly and easy to work with.
-    See [Fleet Stack Documentation](/).
-
-- question: What is the UI Kit?
+- question: Can Fleet Stack track vehicle emissions?
   tags: ['General']
   answer: |-
-    Dyte's React UI Kit is a prebuilt design library of UI components that makes it easy to integrate video and voice calls into any app or website within minutes. See [Fleet Stack Documentation](/react-ui-kit).
+    Fleet Stack helps businesses monitor fuel consumption and track vehicle emissions, providing data that supports eco-friendly initiatives and helps businesses reduce their carbon footprint.
 
-- question: What is the Plugin SDK?
+- question: How does Fleet Stack promote sustainability in fleet operations?
   tags: ['General']
   answer: |-
-    You can use [Dyte plugin SDKs](https://docs.dyte.io/plugin-sdk) to add third-party plugins to experience the most immersive, collaborative, and more human interaction right in your video and audio calls. Dyte provides multiple out-of-the-box plugins, for example, YouTube, Miro, WhiteBoard, and so on.
+    Fleet Stack promotes sustainability by optimizing routes to reduce fuel consumption, encouraging eco-friendly driving practices, and offering insights that help fleets manage their environmental impact more effectively.
 
-- question: How to access API Keys and other details from the Developer Portal?
-  tags: ['General']
+- question: Is Fleet Stack scalable for large fleets?
+  tags: ['Scalability']
   answer: |-
-    Log onto [https://dev.dyte.io/apikeys](https://dev.dyte.io/apikeys) with the credentials you used to sign up for Dyte.
+    Yes, Fleet Stack is highly scalable, able to handle fleets of any size. Whether you have a small fleet or thousands of vehicles, the platform can accommodate your needs without compromising on performance.
 
-- question: How many people can join a Dyte meeting with audio & video turned ON?
-  tags: ['General']
+- question: Can Fleet Stack manage global fleet operations?
+  tags: ['Scalability']
   answer: |-
-    On Dyte, you can have up to 2000 people on the same call with video and voice enabled.
-    However, if you have any specific requirements that require more people joining the same call, please
-    [contact us](https://dyte.io/contact).
+    Fleet Stack is designed to support global operations, allowing fleet managers to track vehicles and monitor performance across multiple regions and time zones.
 
-    We will support you with your requirements.
-
-- question: How many attendees can be seen on a live grid?'
-  tags: ['General']
+- question: Does Fleet Stack offer one-touch installation?
+  tags: ['Scalability']
   answer: |-
-    In order to provide the best possible experience, we recommend the number of attendees on live grid to be set in range of 4 to 9. However, we can tailor it to a maximum of 25 attendees.
+    Yes, Fleet Stack features one-touch installation, making it easy for businesses to deploy the software and start tracking their fleet without requiring technical expertise.
 
-- question: How many people can join a Dyte webinar?
-  tags: ['General']
+- question: How does Fleet Stack support future fleet technologies?
+  tags: ['Scalability']
   answer: |-
-    5000 people. 100 users with the audio-video enabled and everyone else attending
-    the call. However, if you have any specific
-    requirements that require more people joining the same call, please 
-    [contact us](https://dyte.io/contact).
-
-    We will support you with your requirements.
-
-- question: What is an organization in Dyte?
-  tags: ['General']
-  answer: |-
-    In Dyte, organization allows you to group all of your company's
-    members. This is a top-level entity to which all members of your group
-    are added. Dyte also considers the organization to be a billing unit.
-
-- question: Where can I find my auth token and room name?
-  tags: ['General']
-  answer: |-
-    The Add Participant API call returns your authentication token.
-
-    See [Add a participant](/api#/operations/addParticipant).
-
-    Room name is generated when you create a meeting. You can get the room
-    name from the developer portal or using REST APIs. For example,
-
-    ![Create Meeting response](/static/faq/create-meeting.png)
-
-    It is to be noted that a V2 integration of our APIs doesn't have the concept of roomName therefore neither the APIs return roomName nor it is needed by SDK to initialize the meeting.
-
-    For more information, see [Create a meeting](/api#/operations/createMeeting).
-
-- question: Can I join a meeting from the mobile which is started on the web?
-  tags: ['General']
-  answer: |-
-    Yes, you can.
-
-#
-# Technical FAQs
-#
-
-- question: What are the minimum browser and internet requirements for Dyte?
-  tags: ['Technical']
-  answer: |-
-    Browser Requirements:
-    - Chrome (or Chromium based) 74+
-    - Firefox 78+
-    - Opera 64+
-    - Safari 12+
-    - Edge 79+
-    - iOS (Safari) 12.1+
-    - iOS (Non-Safari) 15+
-
-    Internet Requirements:
-    - Downlink (Minimum) 4 Mbps
-    - Downlink (Optimal) 8 Mbps
-    - Uplink (Minimum) 2 Mbps
-    - Uplink (Optimal) 4 Mbps
-
-- question: What is the difference between a meeting and a session?
-  tags: ['Technical']
-  answer: |-
-    Every Dyte communication channel is referred to as a meeting. A meeting is basically a recurring instance of that communication channel, and an ongoing meeting is referred to as a session.
-
-- question: Which part of the meeting is customizable?
-  tags: ['Technical']
-  answer: |-
-    To match your branding, you can change the logo, colors, font, border,
-    and spacing. Design tokens in UI Kit are used to customize these
-    components.
-
-    Our Core SDKs can also be used to create fully customized video/voice
-    calls for your applications.
-
-- question: Can I record a meeting?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    Yes, you can record a meeting. See [Start recording a meeting](/guides/recording/start-recording).
-
-    However, it's important to note that if there are no participants in the meeting for a duration of 1 minute after you've started the recording, the recording automatically stops and the recording is not saved.
-
-- question: Where are the meeting recordings stored?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    The meeting recordings are saved in your cloud storage that you set up. The supported cloud providers are AWS S3 bucket, DigitalOcean Spaces, Azure Blob storage, and Google Cloud Storage (GCS) buckets. 
-
-    For more information on how to configure storage configs for Dyte Recordings, see [Set storage configuration](/guides/capabilities/recording/custom-cloud-storage#set-storage-configuration). 
-
-    If you haven't set up your storage configurations, Dyte will keep your recordings for 7 days, after which they will expire and become inaccessible.
-
-- question: Where is Dyte hosted?
-  tags: ['Technical']
-  answer: |-
-    Resiliency is important. Dyte uses multi-cloud and multi-region
-    architecture to provide that seamless experience. Dyte is hosted in
-    Mumbai, Virginia (US East), Singapore, Frankfurt & [more](https://dyte.io/blog/new-media-regions/). You can also read
-    through [this](https://dyte.io/blog/multi-region-resiliency/) blog to understand how Dyte manages a multi-region setup.
-
-- question: Can I self-host Dyte on my own servers?
-  tags: ['Technical']
-  answer: No. Dyte is a Software as a Service (SaaS), fully managed and hosted by Dyte.
-
-- question: What platforms, language, and technologies can I build on using Dyte?
-  tags: ['Technical']
-  answer: |-
-    The following are the supported platforms:
-    - Web: React JS, Angular, Javascript
-    - Mobile: Flutter, Kotlin, Swift, React Native
-    - Desktop: Electron
-
-- question: What backend services can I use with Dyte?
-  tags: ['Technical']
-  answer: |-
-    We have no restrictions on our end. Our APIs are HTTP REST APIs and thus
-    can be called from services written in any language or framework. To
-    find your language-specific backend code, refer to our [API reference](/api)
-
-- question: What are webhooks?
-  tags: ['Technical']
-  answer: |-
-    Webhook service enables you to subscribe to server events. These events
-    allow to trigger specific server actions in response to Dyte meeting
-    events and state changes. 
-
-    To access the current list of events that can be used with webhooks, see [Webhook Events List](/guides/capabilities/webhooks/webhook-events).
-
-- question: How do I set up and transfer a recording to my storage configuration?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    You can pass an optional object storageConfig in the start recording
-    request, and we will publish the recording directly to your cloud provider
-    once it stops. For more information, see [Publishing a recording to your
-    cloud provider](/guides/capabilities/recording/custom-cloud-storage).
-
-- question: I'm unable to locate my recorded meeting through the Developer Portal or downloadUrl. Was my meeting successfully recorded?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    There are two possible reasons:
-
-    1. Dyte's recording feature will automatically stop recording if no participants are present in the meeting for 1 minute or longer. Please verify whether there were any participants present during the time the recording was initiated. 
-
-    2. In case you haven't set up an external storage configuration and have also disabled uploads to Dyte's bucket, the recording will not be saved in any location and will be considered invalid. For more information, see [Publishing a recording to your
-    cloud provider](/guides/capabilities/recording/custom-cloud-storage).
-
-- question: How do I create a region-specific room?
-  tags: ['Technical']
-  answer: |-
-    To create a meeting in your preferred region, pass preferredRegion in
-    the body of the createMeeting endpoint. For more information, see [Create a meeting](/api#/operations/createMeeting).
-
-- question: Is it possible to record specific streams or users during a meeting, regardless of who is on the screen?
-  tags: ['Technical', 'Recording']
-  answer: No, it is not possible to selectively record specific streams or users. Instead, our recording feature captures the entire screen and not individual streams or users.
-
-- question: Can I send an attachment via chat in a live session?
-  tags: ['Technical']
-  answer: |-
-    Yes, you can share media files via chat during a live session. You can
-    send files, pdfs, images, and more. You can also use plugins such as Doc
-    sync to view the shared file as a group and annotate the points that you
-    would want to clarify.
-
-- question: Can I retrieve the chat history of a session?
-  tags: ['Technical']
-  answer: |-
-    You can programmatically retrieve all chat messages of a Dyte session using [Chat Replay API](/guides/export-chat-dump).
-    For more information, see [How to Fetch Chat History of a Dyte Session](https://dyte.io/blog/fetch-chat-history-of-a-dyte-session/)
-    blog.
-
-- question: What is the duration for which Dyte keeps chat records?
-  tags: ['Technical']
-  answer: |-
-    Dyte stores chat records for a period of 7 days, only if you've enabled [Chat Replay API](/guides/export-chat-dump) for your organization. You can download the chat using the `chat_download_url` in CSV format from AWS S3.
-    However, it is important to note that this download link is only valid for 24 hours. In case the link has expired, you can request for a new `chat_download_url` by sending an HTTP GET request to the [Chat Replay API](/guides/export-chat-dump).
-
-- question: |-
-    How do I view session metadata such as start time, end time, number of
-    participants, and so on?
-  tags: ['Technical']
-  answer: |-
-    You can use the [Session API](/api?v=v2#/operations/GetSessionDetails) to
-    fetch the metadata for a given session.
-
-- question: Is there a way for me to write on the screen during the meeting?
-  tags: ['Technical']
-  answer: |-
-    Dyte provides multiple out-of-the-box plugins, for example, YouTube, Miro,
-    WhiteBoard, and so on. You can use WhiteBoard for the collaboration.
-
-- question: Can I add participants when creating a meeting only?
-  tags: ['Technical']
-  answer: No, after creating a meeting, use the [Add Participants
-    API](/api/?v=v2#/operations/add_participant) to add participants to the
-    meeting.
-
-- question: |-
-    Can I pass recording parameters such as codec and storage configurations
-    when creating a meeting or create a template that can be used for all the
-    meetings?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    Yes, codec and storage information can be passed through the recording API.
-    Per recording, you can pass the parameters storageConfig and videoConfig.
-    You can also send an email to [dev@dyte.io](mailto:dev.dyte.io) to set the
-    orgs default configuration.
-
-- question: |-
-    Can I save my recordings directly to my storage bucket without saving them to Dyte?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    Yes, you can. By default, Dyte uploads all recordings to Dyte's S3 bucket in the AWS ap-south-1 region. However, Dyte provides users with the flexibility to choose whether or not to upload their recordings to Dyte's S3 bucket. 
-
-    If you wish to disable uploads to Dyte's bucket, you can set the `dyte_bucket_config` parameter to false in the [Start Recording](/api?v=v2#/operations/start_recording) endpoint. For more information, see [Manage Dyte's Default Recording Upload Settings](/guides/recording/configure-dyte-bucket-config).
-
-- question: |-
-    What is the average file size of a Dyte recording?
-  tags: ['Technical', 'Recording']
-  answer: |-
-    Based on historical data, here are estimations for recording sizes with different components:
-
-    - Format: H264 video codec
-    - Resolution: 720p
-    - Duration: 1 hour
-    - Estimated size: On average, around 230MB
-    - Range: Typically falls between 200-250MB, with potential outliers for static or rapidly changing content.
-
-    Please note that these estimations are based on historical data and apply to recordings with a resolution of 720p. Actual sizes may vary depending on factors such as content, codec settings, and resolution.
-
-- question: |-
-    What if our server fails to consume the webhook? When will they be fired
-    again, and are they idempotent?
-  tags: ['Technical']
-  answer: |-
-    For timeouts and 5xx errors, we retry three times with a one-second delay
-    between each retry.
-
-- question: Is it possible to get the total running time of a session from the meeting.ended webhook?
-  tags: ['Technical']
-  answer: |-
-    We send `startedAt` and `endedAt` timestamps in a `meeting.ended` webhook
-    that can be used to compute the session's running time.
-
-- question: What is the expected delay in the livestream, and what happens if it exceeds the expected delay?
-  tags: ['Technical', 'Livestreaming']
-  answer: Typically, there is a 3-5 second lag in all livestreams. If the delay exceeds 10 seconds, users can "Skip to Live," which involves dropping frames in order to synchronize the user's video with the live stream. Once the videos are synced, we stop dropping frames until the time exceeds 10 seconds again.
-
-- question: What is the maximum number of hosts and viewers allowed to participate in a livestream?
-  tags: ['Technical', 'Livestreaming']
-  answer: Dyte's Interactive Livestreaming (ILS) can currently accommodate 25,000 viewers and 100 hosts on a single livestream.
-
-- question: What is the maximum number of users that the livestream can handle, and how does this impact its quality?
-  tags: ['Technical', 'Livestreaming']
-  answer: Currently, our platform can support up to 25,000 viewers in a single livestream, and the quality of the stream is not affected by the number of viewers. However, an increase in the number of users may impact other features such as chats and polls.
-
-- question: How do I manage viewer permissions for a livestream?
-  tags: ['Technical', 'Livestreaming']
-  answer: You can manage the permissions for a viewer using presets. For livestreaming, you must create two presets. One preset is for the livestreaming host, while the other is for the livestreaming viewer. For details, see Create [Presets](/guides/livestream/getting-started-with-livestreaming#step-2-create-presets).
-
-- question: Can I join the livestream as a host in the middle of the livestream?
-  tags: ['Technical', 'Livestreaming']
-  answer: Yes, you can. However, ensure that you've the required preset permissions. For details, see Create [Presets](/guides/livestream/getting-started-with-livestreaming#step-2-create-presets).
-
-- question: What permissions does a host require to start a livestream?
-  tags: ['Technical', 'Livestreaming']
-  answer: The host requires certain host controls such as the ability to Kick Participants, Mute Audio, Mute Video, and Pin Participant, as well as media permissions like Start Livestream and Admit or remove participants from the livestream. For details, see Create [Presets](/guides/livestream/getting-started-with-livestreaming#step-2-create-presets).
-
-- question: How much latency can be expected with Dyte's live streams?
-  tags: ['Technical', 'Livestreaming']
-  answer: Dyte provides live streams with a low latency of only 3 to 6 seconds.
-
-- question: Is it necessary to generate new stream keys for each live event?
-  tags: ['Technical', 'Livestreaming']
-  answer: |-
-    No, stream keys can be reused multiple times. However, it's important to keep the stream key private as it grants access to the live stream. Therefore, users should be informed to keep their stream key secure.
-
-    For more information, see [Live Stream Custom Video Input via RTMP](/guides/livestream/livestream-any-rtmp).
-
-- question: |-
-    I'm encountering audio and video problems while developing a live video
-    solution for my app. I'm using Chrome to test the microphone and camera.
-    What could be causing this?
-  tags: ['Technical']
-  answer: |-
-    The issue could be due to the security features implemented by the
-    browser. Most of the standard browsers with best security practices restrict
-    many features to HTTPS instead of HTTP. You can read about the details of
-    the features that are restricted in Chrome
-    [here](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins).
-
-
-    To troubleshoot, we recommend trying the steps mentioned in this
-    [document](https://web.dev/how-to-use-local-https/). If this does not
-    resolve the issue, you can try using [ngrok](https://ngrok.com/) as an
-    alternative solution.
-
-
-    To use ngrok, download the software and run it with the local port
-    specified. This generates an HTTPS URL that you can use for testing the
-    microphone and camera.
-
-    1. Download ngrok.
-
-    2. Run the command 'ngrok http PUT_LOCAL_PORT_HERE'.
-
-    3. Use the HTTPS URL to test your microphone and camera.
+    Fleet Stack is built to be future-proof, supporting emerging technologies such as electric vehicles, autonomous driving, and advanced telematics systems to ensure long-term relevance in the rapidly evolving fleet management industry.
 
 #
 # Pricing FAQs
@@ -409,4 +164,284 @@
 - question: How do I make a payment?
   tags: ['Pricing']
   answer: |-
-    Once Dyte has generated an invoice, you can pay using a link, a saved card, or do a direct bank transfer.
+    Once Fleet Stack has generated an invoice, you can pay using a link, saved card, or direct bank transfer.
+
+#
+# General FAQs (Continued)
+#
+
+- question: What type of customer support does Fleet Stack offer?
+  tags: ['Support']
+  answer: |-
+    Fleet Stack offers 24/7 customer support through phone, email, and live chat. The support team is ready to assist with any technical issues, onboarding questions, or general inquiries about the platform.
+
+- question: How secure is the data in Fleet Stack?
+  tags: ['Security']
+  answer: |-
+    Fleet Stack uses industry-standard encryption for data at rest and in transit. The platform also has built-in security measures to ensure that all vehicle, driver, and fleet information remains private and protected.
+
+- question: Does Fleet Stack offer white-label solutions?
+  tags: ['Customization']
+  answer: |-
+    Yes, Fleet Stack offers white-label solutions, allowing businesses to customize the branding of the platform to align with their corporate identity.
+
+- question: What is Fleet Stack’s approach to data privacy?
+  tags: ['Security']
+  answer: |-
+    Fleet Stack is committed to data privacy and complies with relevant regulations such as GDPR. Data is stored securely, and customers have control over their data access and sharing preferences.
+
+- question: Does Fleet Stack support electric vehicles (EVs)?
+  tags: ['General']
+  answer: |-
+    Yes, Fleet Stack supports electric vehicles by providing tools for tracking battery health, energy consumption, and charging status, ensuring seamless integration into your fleet.
+
+- question: How does Fleet Stack assist with route optimization?
+  tags: ['General']
+  answer: |-
+    Fleet Stack provides real-time route optimization by analyzing traffic, weather, and road conditions, helping reduce fuel consumption and ensuring drivers take the most efficient paths.
+
+- question: How does Fleet Stack handle multi-vehicle fleet operations?
+  tags: ['General']
+  answer: |-
+    Fleet Stack is designed for multi-vehicle fleet operations, allowing managers to track, monitor, and manage multiple vehicles simultaneously. Features such as bulk data entry, multi-vehicle reporting, and group management tools make this process easy and efficient.
+
+- question: Does Fleet Stack offer vehicle diagnostics?
+  tags: ['Maintenance']
+  answer: |-
+    Yes, Fleet Stack integrates with onboard vehicle diagnostic systems to provide real-time alerts about potential issues, such as engine problems, battery status, and tire health, allowing for preventive maintenance.
+
+- question: Can Fleet Stack handle fleet with mixed vehicle types (trucks, vans, cars)?
+  tags: ['General']
+  answer: |-
+    Yes, Fleet Stack can manage fleets with mixed vehicle types, including trucks, vans, and cars. It provides tailored tracking and reporting tools to accommodate different vehicle requirements.
+
+- question: Can Fleet Stack monitor tire pressure?
+  tags: ['Maintenance']
+  answer: |-
+    Yes, Fleet Stack integrates with sensors that can monitor tire pressure, alerting fleet managers to any issues such as low tire pressure that could affect vehicle safety or fuel efficiency.
+
+- question: Does Fleet Stack offer GPS-based geofencing?
+  tags: ['Tracking']
+  answer: |-
+    Yes, Fleet Stack includes GPS-based geofencing features that allow fleet managers to set virtual boundaries around certain areas. Alerts are triggered when vehicles enter or exit these zones.
+
+- question: How does Fleet Stack track delivery schedules?
+  tags: ['Tracking']
+  answer: |-
+    Fleet Stack tracks delivery schedules by providing real-time updates on vehicle locations and estimated arrival times. Fleet managers can monitor progress and adjust routes if necessary.
+
+- question: Does Fleet Stack provide maintenance scheduling?
+  tags: ['Maintenance']
+  answer: |-
+    Fleet Stack offers automated maintenance scheduling, which helps ensure that each vehicle in your fleet is serviced at the right time based on mileage, time intervals, or specific events like oil changes.
+
+- question: Can Fleet Stack be integrated with ERP systems?
+  tags: ['Integration']
+  answer: |-
+    Yes, Fleet Stack provides API integrations with ERP systems, enabling seamless data exchange for businesses that want to incorporate fleet management data into their broader enterprise resource planning systems.
+
+- question: How does Fleet Stack track vehicle performance?
+  tags: ['Analytics']
+  answer: |-
+    Fleet Stack tracks vehicle performance by collecting data on engine health, fuel efficiency, speed, and idling time. This data is analyzed to help improve overall fleet performance and reduce operational costs.
+
+- question: How often does Fleet Stack update its software?
+  tags: ['General']
+  answer: |-
+    Fleet Stack regularly releases software updates to introduce new features, fix bugs, and enhance security. These updates ensure that the platform remains reliable and up-to-date with the latest fleet management trends.
+
+- question: How easy is it to install Fleet Stack in my vehicles?
+  tags: ['Installation']
+  answer: |-
+    Fleet Stack offers an easy, one-touch installation process. Once the hardware is in place, the software is ready to use with minimal setup required, allowing fleet managers to start tracking vehicles immediately.
+
+- question: Does Fleet Stack provide integration with payment systems?
+  tags: ['Integration']
+  answer: |-
+    Yes, Fleet Stack offers integration with payment systems to streamline fleet-related financial transactions, such as toll payments, fuel card transactions, and driver reimbursements.
+
+- question: Can Fleet Stack track trailers and containers?
+  tags: ['Tracking']
+  answer: |-
+    Yes, Fleet Stack can track trailers and containers, providing real-time updates on their location, movement, and condition. This is especially useful for managing assets that are often detached from vehicles.
+
+#
+# Pricing FAQs (Continued)
+#
+
+- question: What payment methods are accepted by Fleet Stack?
+  tags: ['Pricing']
+  answer: |-
+    Fleet Stack accepts various payment methods including credit cards, bank transfers, and PayPal. Please contact Fleet Stack support team to know more about payment methods available.
+
+- question: Is there a discount for large fleets?
+  tags: ['Pricing']
+  answer: |-
+    Yes, Fleet Stack offers discounts for businesses managing large fleets. Contact the sales team to discuss pricing options tailored to your specific needs.
+
+- question: Can Fleet Stack scale with my growing fleet?
+  tags: ['Scalability']
+  answer: |-
+    Yes, Fleet Stack is scalable and can grow with your business. As your fleet expands, you can easily add new vehicles and features without needing to migrate to a new system.
+
+- question: How can I get a quote for Fleet Stack’s services?
+  tags: ['Pricing']
+  answer: |-
+    To get a custom quote for Fleet Stack’s services, reach out to the sales team with details about your fleet size, required features, and any other specific needs. They will provide a personalized pricing proposal.
+
+#
+# Support FAQs
+#
+
+- question: How can I contact Fleet Stack support?
+  tags: ['Support']
+  answer: |-
+    You can contact Fleet Stack support via phone, email, or live chat. Visit our support page to access our contact details and submit a ticket for assistance.
+
+- question: Does Fleet Stack offer technical support for installation?
+  tags: ['Support']
+  answer: |-
+    Yes, Fleet Stack provides technical support for installation. Our support team is available to guide you through the installation process and ensure everything is set up properly.
+
+- question: Can I access Fleet Stack’s knowledge base?
+  tags: ['Support']
+  answer: |-
+    Yes, Fleet Stack has a comprehensive knowledge base with guides, tutorials, and FAQs to help you make the most out of the platform. You can access it via the support section of the website.
+
+- question: Does Fleet Stack offer training for new users?
+  tags: ['Support']
+  answer: |-
+    Yes, Fleet Stack offers training sessions for new users to help them get familiar with the platform's features and capabilities. These sessions are available through online webinars or one-on-one consultations.
+#
+# General FAQs (Continued)
+#
+
+- question: How do I monitor fuel consumption in Fleet Stack?
+  tags: ['Tracking', 'Analytics']
+  answer: |-
+    Fleet Stack tracks fuel consumption in real time, providing insights into fuel efficiency, idling time, and vehicle usage patterns. Alerts are triggered if abnormal fuel usage is detected.
+
+- question: Does Fleet Stack provide real-time weather data for fleet management?
+  tags: ['General']
+  answer: |-
+    Yes, Fleet Stack integrates real-time weather data to help fleet managers adjust routes, anticipate delays, and improve safety during inclement weather.
+
+- question: Can I get custom reports from Fleet Stack?
+  tags: ['Reports', 'Customization']
+  answer: |-
+    Yes, Fleet Stack allows you to generate custom reports based on a variety of metrics such as vehicle performance, fuel consumption, driver behavior, and maintenance schedules.
+
+- question: Does Fleet Stack offer a free trial?
+  tags: ['Pricing']
+  answer: |-
+    Yes, Fleet Stack offers a 14-day free trial, allowing you to explore the platform's features and determine if it fits your fleet management needs before committing to a subscription.
+
+- question: Are there any hidden fees with Fleet Stack?
+  tags: ['Pricing']
+  answer: |-
+    No, Fleet Stack does not have any hidden fees. All pricing is transparent, and you'll know exactly what you're paying for, including any optional add-ons.
+
+- question: What should I do if my device is not tracking properly?
+  tags: ['Support', 'Tracking']
+  answer: |-
+    If your device is not tracking properly, check your network connection, ensure that the device is properly installed, and ensure that it has sufficient battery life. If the issue persists, contact Fleet Stack support for assistance.
+
+- question: How can I report a bug in Fleet Stack?
+  tags: ['Support']
+  answer: |-
+    You can report bugs via the support portal on Fleet Stack's website. Provide as much detail as possible, including steps to reproduce the issue, and the support team will investigate and provide a solution.
+
+- question: Can I integrate Fleet Stack with third-party software?
+  tags: ['Integration']
+  answer: |-
+    Yes, Fleet Stack offers a robust API that enables integration with various third-party software and systems, including ERP and CRM platforms. Custom integrations can be built as needed.
+
+- question: Does Fleet Stack support integration with telematics devices?
+  tags: ['Integration']
+  answer: |-
+    Yes, Fleet Stack is compatible with most telematics devices, allowing you to collect additional data for vehicle diagnostics, driver behavior analysis, and more.
+
+- question: Does Fleet Stack support mobile devices for fleet monitoring?
+  tags: ['Mobile', 'Tracking']
+  answer: |-
+    Yes, Fleet Stack has mobile apps available for both iOS and Android, allowing you to monitor your fleet in real time, receive alerts, and manage your vehicles on the go.
+
+- question: What is the technology behind Fleet Stack's GPS tracking?
+  tags: ['Tracking']
+  answer: |-
+    Fleet Stack uses advanced GPS tracking technology that provides real-time location updates, geofencing, and historical route analysis. The GPS devices are rugged and designed for long-term use in diverse environments.
+
+- question: Is Fleet Stack cloud-based?
+  tags: ['General']
+  answer: |-
+    Yes, Fleet Stack is a cloud-based platform, meaning your data is securely stored in the cloud, accessible from anywhere, and regularly backed up to prevent data loss.
+
+- question: Does Fleet Stack help with tire management?
+  tags: ['Maintenance', 'Tracking']
+  answer: |-
+    Yes, Fleet Stack helps manage tire health by monitoring pressure and wear, alerting fleet managers to potential issues before they cause damage or safety concerns.
+
+- question: Can Fleet Stack help track and manage oil changes?
+  tags: ['Maintenance']
+  answer: |-
+    Fleet Stack tracks maintenance schedules, including oil changes, ensuring that all vehicles receive timely service based on mileage or time intervals.
+
+- question: Does Fleet Stack offer preventive maintenance features?
+  tags: ['Maintenance']
+  answer: |-
+    Yes, Fleet Stack offers preventive maintenance tools that automatically schedule regular check-ups and maintenance tasks, such as oil changes and brake checks, based on vehicle usage data.
+
+- question: Can Fleet Stack send notifications for speeding violations?
+  tags: ['General']
+  answer: |-
+    Yes, Fleet Stack sends real-time notifications if a vehicle exceeds speed limits. This helps fleet managers ensure that drivers adhere to safety regulations and improve fuel efficiency.
+
+- question: How can I customize notifications in Fleet Stack?
+  tags: ['General']
+  answer: |-
+    Fleet Stack allows you to customize notifications for a variety of events, such as vehicle movement, speeding, maintenance needs, and more. Notifications can be sent via email, SMS, or in-app alerts.
+
+- question: Can Fleet Stack be tailored to my company's needs?
+  tags: ['Customization']
+  answer: |-
+    Yes, Fleet Stack offers a variety of customizable features, including branding options, custom reports, and integration capabilities, allowing the platform to be adapted to your specific business requirements.
+
+- question: Does Fleet Stack offer white-label services for branding?
+  tags: ['Customization']
+  answer: |-
+    Yes, Fleet Stack provides white-label options, allowing businesses to brand the platform with their own logo, colors, and design elements to maintain a consistent customer experience.
+
+- question: Does Fleet Stack offer fleet performance analytics?
+  tags: ['Analytics']
+  answer: |-
+    Yes, Fleet Stack provides comprehensive fleet performance analytics, including data on vehicle usage, fuel consumption, maintenance costs, and driver performance. This data helps businesses optimize their operations and reduce costs.
+
+- question: How does Fleet Stack help reduce fuel costs?
+  tags: ['General']
+  answer: |-
+    Fleet Stack helps reduce fuel costs by providing insights into vehicle fuel consumption, driving behavior, and route efficiency, enabling businesses to optimize routes and reduce fuel waste.
+
+- question: Can Fleet Stack track driver behavior?
+  tags: ['Tracking']
+  answer: |-
+    Yes, Fleet Stack tracks key driver behaviors such as speeding, harsh braking, and idling. This data can be used to improve driver performance and safety through training and feedback.
+
+- question: Does Fleet Stack provide advanced reporting features?
+  tags: ['Reports', 'Analytics']
+  answer: |-
+    Yes, Fleet Stack offers advanced reporting tools that allow you to create detailed reports on a variety of metrics, including vehicle performance, driver behavior, and fleet efficiency.
+
+- question: Can Fleet Stack help with asset tracking beyond vehicles?
+  tags: ['Tracking', 'General']
+  answer: |-
+    Yes, Fleet Stack supports asset tracking beyond vehicles, including trailers and containers, allowing businesses to monitor the location and condition of all assets in their fleet.
+
+- question: Does Fleet Stack have role-based access controls?
+  tags: ['Security']
+  answer: |-
+    Yes, Fleet Stack includes role-based access control (RBAC), which allows fleet managers to assign different levels of access and permissions to users based on their role within the organization.
+
+- question: Is Fleet Stack compliant with GDPR?
+  tags: ['Security']
+  answer: |-
+    Yes, Fleet Stack is fully compliant with the General Data Protection Regulation (GDPR), ensuring that all personal data is processed in accordance with EU regulations.

@@ -24,11 +24,11 @@ export default function HelpSection({ className = '' }) {
             />
             <h3 className="my-3">Book a Demo</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Contact us for a demo. We are looking forward to connecting with
-              you.
+              Contact us for a demo with Fleet Stack&apos;s expert. We are
+              looking forward to connecting with you.
             </p>
             <Link
-              href="https://dyte.io/schedule-demo"
+              href="https://fleetstackglobal.com/contact"
               className="text-primary dark:text-primary-100"
             >
               Schedule a Call &rarr;
@@ -44,11 +44,11 @@ export default function HelpSection({ className = '' }) {
             />
             <h3 className="my-3">Support</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Fleet Stack&apos;s expert support team is always available to help. Connect for
-              dedicated 1:1 support!
+              Fleet Stack&apos;s expert support team is always available to
+              help. Connect for dedicated 1:1 support!
             </p>
             <Link
-              href="https://dyte.io/contact"
+              href="https://fleetstackglobal.com/support"
               className="text-primary dark:text-primary-100"
             >
               Contact Us &rarr;
@@ -62,10 +62,10 @@ export default function HelpSection({ className = '' }) {
               width="48"
               height="48"
             />
-            <h3 className="my-3">Forum</h3>
+            <h3 className="my-3">FAQ</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Browse through our Forum to find answers to commonly asked
-              questions.
+              Browse through Fleet Stack&apos;s detailed FAQ section to find
+              answers of frequently asked questions.
             </p>
             <Link href="/faq" className="text-primary dark:text-primary-100">
               View Forum &rarr;
