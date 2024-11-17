@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdyte_docs=self.webpackChunkdyte_docs||[]).push([[88447],{24463:e=>{e.exports=JSON.parse('{"tags":[{"label":"Flutter UI Kit","permalink":"/flutter/tags/flutter-ui-kit","count":1},{"label":"Design System","permalink":"/flutter/tags/design-system","count":1},{"label":"releasenotes","permalink":"/flutter/tags/releasenotes","count":1}]}')}}]);
