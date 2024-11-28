@@ -10,7 +10,7 @@ const meta = {
   title: 'Fleet Stack Docs',
   tagline:
     'Explore comprehensive documentation for Dyte, including guides, references, and best practices.',
-  url: 'https://docs.dyte.io',
+  url: 'https://docs.fleetstackglobal.com',
   baseUrl: '/',
   favicon: 'favicon.png',
   i18n: {
