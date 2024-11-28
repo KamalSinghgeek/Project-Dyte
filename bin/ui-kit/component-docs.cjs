@@ -11,7 +11,7 @@ const {
 /** @typedef {import('@dytesdk/ui-kit/dist/docs/docs-components').JsonDocsComponent} Component */
 
 const basePaths = {
-  core: 'docs/ui-kit/components',
+  // core: 'docs/ui-kit/components',
   react: 'docs/react-ui-kit/components',
   angular: 'docs/angular-ui-kit/components',
 };

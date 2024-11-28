@@ -20,22 +20,22 @@ interface Guide {
 
 const guides: Guide[] = [
   {
-    title: 'Optimize Your Fleet with Fleet Stack',
-    icon: AppsAddInRegular,
-    text: 'Optimize Your Fleet: Streamlining Vehicle Management with our Advanced Tools!',
-    link: '/guides/capabilities/recording',
-  },
-  {
     title: 'Fleet Stack one touch installation',
     icon: AppsAddInRegular,
     text: 'We make it easiest to install and deploy on your own server!',
-    link: '/guides/migration/twilio/concepts-twilio-vs-dyte',
+    link: '/guides',
+  },
+  {
+    title: 'User Guide for Fleet Stack',
+    icon: AppsAddInRegular,
+    text: 'Optimize Your Fleet: Streamlining Vehicle Management with our Advanced Tools!',
+    link: '/guides/administration/user-guide',
   },
   {
     title: 'Adding Geofence',
     icon: AppsAddInRegular,
     text: 'Add Geofence to your vehicle and track easily!',
-    link: '/guides/capabilities/breakoutroom/create-breakout-rooms',
+    link: '/guides',
   },
 ];
 
@@ -49,20 +49,19 @@ interface Sample {
 
 const samples: Sample[] = [
   {
-    title: 'Fleet Stack Live Tracking Tutorial',
+    title: 'GPS Software Installation',
     platform: 'YouTube',
-    demo: 'https://youtu.be/FuWnQC6SHiM?si=NU7NufoEAYQyb9pX',
+    demo: 'https://youtu.be/UJ30B4mnxHA?si=1WITniUYwnhCnMA9',
   },
   {
-    title: 'Fleet Stack Mobile application',
+    title: 'Build your Own GPS Software application',
     platform: 'YouTube',
-    demo: 'https://youtu.be/mSEUbK4h560?si=MF5gv7KQK48L8hfb',
+    demo: 'https://youtu.be/zMJETWKtDqk?si=vvk12RjVwMOmvA4l',
   },
   {
     title: 'Fleet Stack White Labeling Guide',
     platform: 'YouTube',
     demo: 'https://youtu.be/3fz92PLZvsc?si=STTMCdxfe_DYrbkg',
-    
   },
 ];
 

@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
-import { Linkedin, Youtube, Github } from '@styled-icons/boxicons-logos';
+import { Linkedin, Youtube, Medium } from '@styled-icons/boxicons-logos';
 import { XIcon } from '@site/src/icons';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import ThemedImage from '@theme/ThemedImage';
 
 const products = [
   {
-    name: 'GPS Tracking Software',
-    href: 'https://fleetstackglobal.com/',
+    name: 'GPS Software',
+    href: 'https://fleetstackglobal.com/gps-software',
   },
   {
-    name: 'Build Mobile Application',
-    href: 'https://studio.fleetstackglobal.com/',
+    name: 'White Label GPS Tracking Software',
+    href: 'https://fleetstackglobal.com/white-label-gps-tracking-software',
   },
   {
-    name: 'Downloads',
-    href: 'https://fleetstackglobal.com/downloads',
+    name: 'Video Telematics Software',
+    href: 'https://fleetstackglobal.com/video-telematics-software',
   },
 ];
 
@@ -212,16 +212,28 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-            <Link href="" aria-label="Dyte's GitHub Organization">
-              <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
+            <Link
+              href="https://medium.com/@fleetstack2010"
+              aria-label="Fleet Stack on Medium"
+            >
+              <Medium className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="" aria-label="LinkedIn">
+            <Link
+              href="https://www.linkedin.com/company/fleetstack/"
+              aria-label="LinkedIn"
+            >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="" aria-label="Twitter">
+            <Link
+              href="https://twitter.com/fleetstacksoft"
+              aria-label="Fleet Stack Twitter"
+            >
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="" aria-label="Dyte YouTube Channel">
+            <Link
+              href="https://www.youtube.com/@FleetStack"
+              aria-label="Fleet Stack YouTube Channel"
+            >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
           </div>

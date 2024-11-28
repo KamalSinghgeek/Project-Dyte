@@ -54,13 +54,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/addPreset"
                 className="group font-jakarta font-semibold text-current"
               >
-                Get Overspeed Report 
+                Report 
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-              Receive a comprehensive report on your vehicle's overspeed.
+              Receive a comprehensive report of your vehicle.
               </div>
             </li>
             <li className="flex flex-col gap-1">

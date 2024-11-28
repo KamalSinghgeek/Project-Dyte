@@ -1,0 +1,132 @@
+---
+title: Server and Installation
+sidebar_position: 1
+---
+
+# Create Server and Install Fleet Stack
+
+## Steps for Creating an AWS Server
+
+### 1. Log in to AWS
+
+- **Access Your Account**:
+  - Log into your AWS account.
+
+### 2. Navigate to EC2
+
+- **Open EC2**:
+  - From the AWS dashboard, click on **EC2**.
+  - Go to the **Instances** section to view running instances.
+
+### 3. Launch an Instance
+
+- **Start the Launch Process**:
+  - Click on **Launch Instances**.
+  - **Set Instance Details**:
+    - Enter the name of the instance.
+    - Select the **Windows** option.
+    - Choose the appropriate instance type.
+
+### 4. Set Up Key Pair
+
+- **Configure Key Pair**:
+  - If you have a key pair, select it.
+  - If not, click **Create New Key Pair**, generate one, and download it.
+
+### 5. Configure Storage
+
+- **Allocate Storage**:
+  - Specify the required storage size for your system.
+
+### 6. Launch the Instance
+
+- **Complete Setup**:
+  - Click on **Launch Instance**.
+  - After completion, return to the **EC2 Resource Page**.
+
+### 7. Allocate and Associate Elastic IP Address
+
+- **Assign an Elastic IP**:
+  - Go to **Elastic IPs** and click **Allocate Elastic IP Address**.
+  - Enter a name for the IP address and save it.
+  - Select the created IP address, and associate it with your instance.
+
+### 8. Set Up Security Rules
+
+- **Configure Inbound Rules**:
+  - Go to the **Security Groups** section.
+  - Click **Edit Inbound Rules** and add the following:
+    - **Port Range**: 5000–6000
+    - **Port Range**: 80
+    - **Port Range**: 443
+    - **Port Range**: 1433
+  - Save the rules.
+
+### 9. Connect to Your Instance
+
+- **Establish a Remote Desktop Connection**:
+  - Copy the public IP address of the instance.
+  - Open **Remote Desktop Connection** and paste the IP address.
+  - Enter the **username** and **password**:
+    - Retrieve them from the **RDP Client** using the private key file.
+  - Click **Connect**, and your instance is ready.
+
+---
+
+## Steps for Fleet Stack Installation
+
+### 1. Prepare the Environment
+
+- **Install Google Chrome**:
+  - Open **Microsoft Edge**, search for **Google Chrome**, and install it.
+- **Adjust Windows Security Settings**:
+  - Disable the following in **Virus and Threat Protection**:
+    - Real-time protection
+    - Cloud-delivered protection
+    - Automatic sample submission
+
+### 2. Download and Install Fleet Stack
+
+- **Download Fleet Stack**:
+  - Visit the official Fleet Stack website.
+  - Download the trial version and extract the ZIP folder.
+- **Install the Software**:
+  - Follow the on-screen instructions to install Fleet Stack.
+
+### 3. Configure Fleet Stack
+
+- **Access the Admin Panel**:
+  - Open Google Chrome and navigate to `localhost`.
+  - Complete the **Administration Registration**:
+    - Enter your name, company name, country, website, mobile number, email, username, and password.
+
+### 4. Enable Windows Security Settings
+
+- **Reactivate Security**:
+  - Turn on:
+    - Real-time protection
+    - Cloud-delivered protection
+    - Automatic sample submission
+
+### 5. Launch Fleet Stack
+
+- **Start Services**:
+  - Open the Fleet Stack panel and click **Start** to run the services.
+- **Access Fleet Stack**:
+  - Log in with your **Super Admin** credentials.
+
+Fleet Stack is now successfully installed and running on your AWS server.
+
+<div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/J6YWqugB_z0?si=eL-G89C1iJry-mLW"
+    title="AWS Server and Fleet Stack Installation Tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>{' '}
+
+---

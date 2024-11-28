@@ -38,7 +38,7 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://youtu.be/mSEUbK4h560',
     type: 'video',
-    title: 'Fleet Stack Mobile application - Self Hosted GPS Software',
+    title: 'Fleet Stack Mobile application',
     description:
       'Fleet Stack mobile application offers real-time GPS tracking, route optimization, and seamless fleet management for operational excellence.',
     image: '/static/landing-page/resources/Guide_Image_3.jpg',
@@ -47,8 +47,7 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://youtu.be/FYB9xPR-3bE?si=7Hx8YdZRLovxIFkZ',
     type: 'video',
-    title:
-      'Empower Your Brand: White Label Your GPS Software with Fleet Stack!',
+    title: 'White Label GPS with FleetStack',
     description:
       'Empower your brand effortlessly—white-label Fleet Stack’s GPS software for tailored, scalable, and efficient fleet management solutions!',
     image: '/static/landing-page/resources/Guide_Image_4.jpg',
@@ -57,8 +56,7 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://www.youtube.com/watch?v=RTya4g_SALU',
     type: 'video',
-    title:
-      'FleetStack History Tracking Tutorial: Analyzing Your Fleet Past Routes',
+    title: 'FleetStack: Track Route History',
     description:
       'Learn to analyze your fleet past routes effectively with FleetStack History Tracking tutorial, ensuring better operational insights.',
     image: '/static/landing-page/resources/Guide_Image_5.jpg',

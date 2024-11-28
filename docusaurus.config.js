@@ -245,8 +245,8 @@ const plugins = [
           )
         ) {
           return [
-            '/guides/capabilities/livestreaming-other-platforms',
-            '/guides/capabilities/recording/livestream-recording',
+            '/guides',
+            '/guides',
           ];
         }
 
@@ -540,14 +540,14 @@ const config = {
               },
             ],
           },
-          {
-            label: 'Free Tools',
-            to: 'https://fleetstackglobal.com/FreeTools',
-          },
-          {
-            label: 'Contact Us',
-            to: 'https://fleetstackglobal.com/contact',
-          },
+          // {
+          //   label: 'Free Tools',
+          //   to: 'https://fleetstackglobal.com/FreeTools',
+          // },
+          // {
+          //   label: 'Contact Us',
+          //   to: 'https://fleetstackglobal.com/contact',
+          // },
           {
             label: 'Support',
             to: 'https://fleetstackglobal.com/support',
