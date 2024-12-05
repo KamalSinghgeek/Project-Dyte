@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdyte_docs=self.webpackChunkdyte_docs||[]).push([[71811],{70394:t=>{t.exports=JSON.parse('{"tag":{"label":"installation","permalink":"/rn-core/tags/installation","allTagsPath":"/rn-core/tags","count":1,"items":[{"id":"installation","title":"Installation","description":"Install rn-core.","permalink":"/rn-core/"}],"unlisted":false}}')}}]);

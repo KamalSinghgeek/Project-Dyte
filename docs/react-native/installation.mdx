@@ -13,13 +13,13 @@ npm install @dytesdk/mobile
 2. Install external dependencies required by our SDK
 
 ```bash npm2yarn
-npm install react-native-webview react-native-webrtc @react-native-async-storage/async-storage react-native-vector-icons
+npm install mobile-application-webview mobile-application-webrtc @mobile-application-async-storage/async-storage mobile-application-vector-icons
 ```
 
 3. Add this to the root of your project
 
 ```js
-import { registerGlobals } from 'react-native-webrtc';
+import { registerGlobals } from 'mobile-application-webrtc';
 
 registerGlobals();
 ```
@@ -64,7 +64,7 @@ buildTypes {
 
 If you encounter chinese characters in your app instead of icons, please apply
 this fix mentioned in
-[react-native-vector-icons issue](https://github.com/oblador/react-native-vector-icons/issues/1106#issuecomment-574683931)
+[mobile-application-vector-icons issue](https://github.com/oblador/mobile-application-vector-icons/issues/1106#issuecomment-574683931)
 
 :::
 

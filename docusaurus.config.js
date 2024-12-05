@@ -21,164 +21,164 @@ const meta = {
 
 /** @type {import('@docusaurus/plugin-content-docs').Options[]} */
 const docs = [
-  {
-    id: 'cli',
-    path: 'docs/cli',
-    routeBasePath: '/cli',
-  },
-  {
-    id: 'plugin-sdk',
-    path: 'docs/plugin-sdk',
-    routeBasePath: '/plugin-sdk',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
+  // {
+  //   id: 'cli',
+  //   path: 'docs/cli',
+  //   routeBasePath: '/cli',
+  // },
+  // {
+  //   id: 'plugin-sdk',
+  //   path: 'docs/plugin-sdk',
+  //   routeBasePath: '/plugin-sdk',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
 
   // Community packages
-  {
-    id: 'community-packages',
-    path: 'docs/community-packages',
-    routeBasePath: '/community-packages',
-  },
+  // {
+  //   id: 'community-packages',
+  //   path: 'docs/community-packages',
+  //   routeBasePath: '/community-packages',
+  // },
 
   // Web UI Kits
+  // {
+  //   id: 'ui-kit',
+  //   path: 'docs/ui-kit',
+  //   routeBasePath: '/ui-kit',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
   {
-    id: 'ui-kit',
-    path: 'docs/ui-kit',
-    routeBasePath: '/ui-kit',
+    id: 'web-application',
+    path: 'docs/web-application',
+    routeBasePath: '/web-application',
     versions: {
       current: {
-        label: '1.x.x',
+        label: 'Lite',
       },
     },
   },
-  {
-    id: 'react-ui-kit',
-    path: 'docs/react-ui-kit',
-    routeBasePath: '/react-ui-kit',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  {
-    id: 'angular-ui-kit',
-    path: 'docs/angular-ui-kit',
-    routeBasePath: '/angular-ui-kit',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
+  // {
+  //   id: 'angular-ui-kit',
+  //   path: 'docs/angular-ui-kit',
+  //   routeBasePath: '/angular-ui-kit',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
 
   // Web Core
-  {
-    id: 'web-core',
-    path: 'docs/web-core',
-    routeBasePath: '/web-core',
-    versions: {
-      current: {
-        label: '2.x.x',
-      },
-    },
-  },
+  // {
+  //   id: 'web-core',
+  //   path: 'docs/web-core',
+  //   routeBasePath: '/web-core',
+  //   versions: {
+  //     current: {
+  //       label: '2.x.x',
+  //     },
+  //   },
+  // },
   // React Web Core
-  {
-    id: 'react-web-core',
-    path: 'docs/react-web-core',
-    routeBasePath: '/react-web-core',
-    versions: {
-      current: {
-        label: '2.x.x',
-      },
-    },
-  },
+  // {
+  //   id: 'react-web-core',
+  //   path: 'docs/react-web-core',
+  //   routeBasePath: '/react-web-core',
+  //   versions: {
+  //     current: {
+  //       label: '2.x.x',
+  //     },
+  //   },
+  // },
 
   // Mobile Core
-  {
-    id: 'android-core',
-    path: 'docs/android-core',
-    routeBasePath: '/android-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  {
-    id: 'flutter-core',
-    path: 'docs/flutter-core',
-    routeBasePath: '/flutter-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  {
-    id: 'ios-core',
-    path: 'docs/ios-core',
-    routeBasePath: '/ios-core',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  {
-    id: 'rn-core',
-    path: 'docs/rn-core',
-    routeBasePath: '/rn-core',
-    versions: {
-      current: {
-        label: '0.x.x',
-      },
-    },
-  },
+  // {
+  //   id: 'android-core',
+  //   path: 'docs/android-core',
+  //   routeBasePath: '/android-core',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
+  // {
+  //   id: 'flutter-core',
+  //   path: 'docs/flutter-core',
+  //   routeBasePath: '/flutter-core',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
+  // {
+  //   id: 'ios-core',
+  //   path: 'docs/ios-core',
+  //   routeBasePath: '/ios-core',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
+  // {
+  //   id: 'rn-core',
+  //   path: 'docs/rn-core',
+  //   routeBasePath: '/rn-core',
+  //   versions: {
+  //     current: {
+  //       label: '0.x.x',
+  //     },
+  //   },
+  // },
 
   // Mobile UI Kits
   {
     id: 'android',
-    path: 'docs/android',
-    routeBasePath: '/android',
+    path: 'docs/Fleet-Stack-Pro',
+    routeBasePath: '/Fleet-Stack-Pro',
     versions: {
       current: {
-        label: '1.x.x',
+        label: 'Pro',
       },
     },
   },
+  // {
+  //   id: 'flutter',
+  //   path: 'docs/flutter',
+  //   routeBasePath: '/flutter',
+  //   versions: {
+  //     current: {
+  //       label: '0.7.x',
+  //     },
+  //   },
+  // },
+  // {
+  //   id: 'ios',
+  //   path: 'docs/ios',
+  //   routeBasePath: '/ios',
+  //   versions: {
+  //     current: {
+  //       label: '1.x.x',
+  //     },
+  //   },
+  // },
   {
-    id: 'flutter',
-    path: 'docs/flutter',
-    routeBasePath: '/flutter',
+    id: 'mobile-application',
+    path: 'docs/mobile-application',
+    routeBasePath: '/mobile-application',
     versions: {
       current: {
-        label: '0.7.x',
-      },
-    },
-  },
-  {
-    id: 'ios',
-    path: 'docs/ios',
-    routeBasePath: '/ios',
-    versions: {
-      current: {
-        label: '1.x.x',
-      },
-    },
-  },
-  {
-    id: 'react-native',
-    path: 'docs/rn-ui-kit',
-    routeBasePath: '/react-native',
-    versions: {
-      current: {
-        label: '1.x.x',
+        label: 'Lite',
       },
     },
   },
@@ -235,8 +235,8 @@ const plugins = [
           return ['/guides/capabilities/embed'];
         }
 
-        if (path.startsWith('/react-ui-kit/basics/integrate')) {
-          return ['/react-ui-kit/basics/components-basics'];
+        if (path.startsWith('/web-application/basics/integrate')) {
+          return ['/web-application/basics/components-basics'];
         }
 
         if (
@@ -244,10 +244,7 @@ const plugins = [
             '/guides/capabilities/misc/livestreaming-other-platforms'
           )
         ) {
-          return [
-            '/guides',
-            '/guides',
-          ];
+          return ['/guides', '/guides'];
         }
 
         if (
@@ -409,7 +406,7 @@ const plugins = [
             '/javascript/',
           ];
         }
-        if (path === '/react-ui-kit') {
+        if (path === '/web-application') {
           return [
             '/react/advanced-usage',
             '/react/customize-meeting-ui',
@@ -501,7 +498,7 @@ const config = {
         logo: {
           href: '/',
           src: '/logo/logo.png',
-          srcDark: '/logo/logo.png',
+          srcDark: '/logo/dark-logo.png',
           alt: 'Fleet Stack Documentation',
           height: '60px',
           width: '230px',

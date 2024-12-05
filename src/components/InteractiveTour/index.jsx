@@ -2,16 +2,14 @@ import { useHistory } from '@docusaurus/router';
 import React, { useEffect, useState } from 'react';
 import { Background, BackgroundVariant, Controls, ReactFlow } from 'reactflow';
 import 'reactflow/dist/style.css';
-import {
-  provideDyteDesignSystem,
-} from '@dytesdk/react-ui-kit';
+import { provideDyteDesignSystem } from '@dytesdk/web-application';
 import { useDyteClient } from '@dytesdk/react-web-core';
 
 import { edgeTypes } from './edges';
 
 import { steps, useStore } from './store';
 import { nodeTypes } from './nodes/nodeTypes';
-import  OnboardingPartTwo, { stepsTwo } from './OnboardingPartTwo';
+import OnboardingPartTwo, { stepsTwo } from './OnboardingPartTwo';
 
 export const InteractiveTour = ({ href }: { href: string }) => {
   const history = useHistory();
@@ -48,9 +46,9 @@ export const InteractiveTour = ({ href }: { href: string }) => {
   useEffect(() => {
     if (meeting) {
       meeting.self.on('roomJoined', () => {
-        if(store.currentStep == 10) store.incStep(11);
-        else if(store.currentStep == 11) store.incStep(12);
-      })
+        if (store.currentStep == 10) store.incStep(11);
+        else if (store.currentStep == 11) store.incStep(12);
+      });
     }
   }, [meeting]);
 
@@ -67,7 +65,11 @@ export const InteractiveTour = ({ href }: { href: string }) => {
 
   if (nonReactFlowStep) {
     return (
-      <OnboardingPartTwo step={nonReactFlowStep} meeting={meeting} store={store} />
+      <OnboardingPartTwo
+        step={nonReactFlowStep}
+        meeting={meeting}
+        store={store}
+      />
     );
   }
 

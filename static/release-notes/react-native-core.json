@@ -9,14 +9,14 @@
     "version": "0.6.8",
     "createdAt": 1702837800,
     "fixes": [
-      "Bug fix to use @dyteinternals/react-native-webrtc instead of react-native-webrtc"
+      "Bug fix to use @dyteinternals/mobile-application-webrtc instead of mobile-application-webrtc"
     ],
     "breaking-changes": []
   },
   {
     "version": "0.7.0",
     "createdAt": 1702837800,
-    "features": ["@dyteinternals/react-native-webrtc version bump"],
+    "features": ["@dyteinternals/mobile-application-webrtc version bump"],
     "fixes": [],
     "breaking-changes": []
   },

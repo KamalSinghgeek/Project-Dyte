@@ -173,8 +173,8 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
         />
       </Head>
 
-      <div className="relative flex items-center gap-2">
-        {/* <div
+      {/* <div className="relative flex items-center gap-2">
+        <div
           className="group flex h-9 cursor-pointer items-center gap-2 rounded-lg border-2 border-transparent bg-[var(--docsearch-searchbox-background)] px-3 transition-colors hover:border-primary hover:dark:border-primary-100"
           title="Dyte AI Chatbot"
           onClick={() => {
@@ -186,7 +186,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
           <span className="sr-only pointer-events-none text-xs font-medium text-[var(--docsearch-muted-color)] transition-all group-hover:xl:not-sr-only">
             Dyte AI
           </span>
-        </div> */}
+        </div>
 
         <DocSearchButton
           onTouchStart={importDocSearchModalIfNeeded}
@@ -200,7 +200,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
           translations={translations.button}
           id="search-bar"
         />
-      </div>
+      </div> */}
 
       {isOpen &&
         DocSearchModal &&

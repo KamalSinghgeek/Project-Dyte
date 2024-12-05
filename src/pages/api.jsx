@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import { DyteSpinner } from '@dytesdk/react-ui-kit';
+import { DyteSpinner } from '@dytesdk/web-application';
 import { useHistory } from '@docusaurus/router';
 import clsx from 'clsx';
 

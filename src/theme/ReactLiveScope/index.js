@@ -1,5 +1,5 @@
 import React from 'react';
-import * as ReactUIKit from '@dytesdk/react-ui-kit';
+import * as ReactUIKit from '@dytesdk/web-application';
 import * as ReactWebCore from '@dytesdk/react-web-core';
 
 import DemoElements from '../../components/DemoElements';
@@ -11,7 +11,7 @@ const ReactLiveScope = {
   ...ReactUIKit,
   ...ReactWebCore,
 
-  // DemoElements used in react-ui-kit live codeblocks
+  // DemoElements used in web-application live codeblocks
   ...DemoElements,
 };
 

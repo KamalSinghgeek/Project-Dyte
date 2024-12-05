@@ -8,7 +8,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import { usePrismTheme } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
 import { DyteProvider, useDyteClient } from '@dytesdk/react-web-core';
-import { provideDyteDesignSystem } from '@dytesdk/react-ui-kit';
+import { provideDyteDesignSystem } from '@dytesdk/web-application';
 import { useColorMode } from '@docusaurus/theme-common';
 
 function Header({ children }) {

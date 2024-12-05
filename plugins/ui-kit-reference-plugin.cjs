@@ -15,6 +15,6 @@ function getReferencePlugin(config) {
 
 module.exports = [
   getReferencePlugin(),
-  getReferencePlugin({ out: 'react-ui-kit/reference' }),
+  getReferencePlugin({ out: 'web-application/reference' }),
   getReferencePlugin({ out: 'angular-ui-kit/reference' }),
 ];

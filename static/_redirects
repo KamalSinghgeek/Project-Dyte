@@ -1,19 +1,19 @@
-/react-ui-kit/Customization/hooks-provider /react-ui-kit/basics/using-hooks 301
+/web-application/Customization/hooks-provider /web-application/basics/using-hooks 301
 /docs/home/introduction / 301
-/react-ui-kit/installation /react-ui-kit/quickstart 301
-/react-ui-kit/basics/using-hooks /react-ui-kit/using-hooks 301
+/web-application/installation /web-application/quickstart 301
+/web-application/basics/using-hooks /web-application/using-hooks 301
 /angular-ui-kit/installation /angular-ui-kit/quickstart 301
 /ui-kit/installation /ui-kit/quickstart 301
 /web-core/quickstart /web-core 301
 /faq/ /faq 200
 /api/ /api 200
-/react/<_> /react-ui-kit 301
+/react/<_> /web-application 301
 /javascript/<_> /ui-kit 301
 /guides/quickstart /guides 301
 /guides/livestream/getting-started-with-livestreaming /guides/livestream/livestream-overview 301
 /web-core/introduction /web-core 301
 /iOS/quickstart /ios/quickstart 301
-/react-ui-kit/basics/atomic-design /react-ui-kit/components 301
+/web-application/basics/atomic-design /web-application/components 301
 /ui-kit/basics/atomic-design /ui-kit/basics/atomic-design 301
 /how-dyte-works /getting-started 301
 /android/quickstart /android 301
@@ -30,7 +30,7 @@
 /flutter/ /flutter 301
 /iOS-core/ /ios-core 301
 /iOS/quickstart/ /ios/quickstart 301
-/react-ui-kit/ /react-ui-kit 301
+/web-application/ /web-application 301
 /guides/livestreaming-any-rtmp-streams/ /guides/livestream/advanced/livestream-any-rtmp 301
 /guides/livestreaming-any-rtmp-streams /guides/livestream/advanced/livestream-any-rtmp 301
 /guides/livestream/livestream-any-rtmp /guides/livestream/advanced/livestream-any-rtmp 301
@@ -45,5 +45,5 @@
 
 /discuss https://dyte.io/contact 302
 /discuss/ https://dyte.io/contact 302
-/react-ui-kit/basics/components-basics /react-ui-kit/basics/integrate 301
+/web-application/basics/components-basics /web-application/basics/integrate 301
 /guides/capabilities/recording/livestream-recording /guides/capabilities/misc/livestreaming-other-platforms 301

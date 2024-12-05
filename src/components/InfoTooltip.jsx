@@ -1,5 +1,5 @@
 import React from 'react';
-import { DyteTooltip } from '@dytesdk/react-ui-kit';
+import { DyteTooltip } from '@dytesdk/web-application';
 import { Info } from 'react-feather';
 
 export default function InfoTooltip({ label }) {

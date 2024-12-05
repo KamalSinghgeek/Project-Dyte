@@ -1,6 +1,6 @@
 const APP = (colorMode: string) => `import React, { useEffect } from 'react';
 import { DyteProvider, useDyteClient } from '@dytesdk/react-web-core';
-import { provideDyteDesignSystem } from '@dytesdk/react-ui-kit';
+import { provideDyteDesignSystem } from '@dytesdk/web-application';
 import Custom from './meeting.tsx';
 
 const initInProgress = {
