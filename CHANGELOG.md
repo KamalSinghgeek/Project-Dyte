@@ -88,7 +88,7 @@
 - participants documentation ([715af4e](https://github.com/dyte-in/docs/commit/715af4e8b590f0a5f13e4ae9be60337766bde809))
 - recording properties ([99a9d21](https://github.com/dyte-in/docs/commit/99a9d21592e044e2ce4056ad2e435be1206e6bd8))
 - update participant docs ([30249d6](https://github.com/dyte-in/docs/commit/30249d606e65ddb6616b3ce542a299ca3145fed6))
-- update reference for react-native-core and react-web-core ([#31](https://github.com/dyte-in/docs/issues/31)) ([a651305](https://github.com/dyte-in/docs/commit/a651305636557e268c3af068ad948aa27107779f))
+- update reference for mobile-application-core and react-web-core ([#31](https://github.com/dyte-in/docs/issues/31)) ([a651305](https://github.com/dyte-in/docs/commit/a651305636557e268c3af068ad948aa27107779f))
 - web-core docs ([#35](https://github.com/dyte-in/docs/issues/35)) ([28ca549](https://github.com/dyte-in/docs/commit/28ca5499e0e1f6aee7ba197afe5a6139a61d1646)), closes [#58](https://github.com/dyte-in/docs/issues/58) [#58](https://github.com/dyte-in/docs/issues/58)
 
 ### Features
@@ -148,7 +148,7 @@
 
 ### Bug Fixes
 
-- update reference for react-native-core and react-web-core ([3316430](https://github.com/dyte-in/docs/commit/331643034d7935c838f66ca062e82bcd1e701ce5))
+- update reference for mobile-application-core and react-web-core ([3316430](https://github.com/dyte-in/docs/commit/331643034d7935c838f66ca062e82bcd1e701ce5))
 
 ## [1.12.1](https://github.com/dyte-in/docs/compare/v1.12.0...v1.12.1) (2022-06-09)
 
@@ -465,7 +465,7 @@
 - redesigned navbar, icons changed, markdown sample added ([52a1427](https://github.com/dyte-in/docs/commit/52a14273b40e6c048ed54125dc0533ee4ec2cbb0))
 - **release:** trigger new release ([031ea20](https://github.com/dyte-in/docs/commit/031ea203e7f693d310bfe9471ff0baee334375c3))
 - remove basePath as warning is given for invalid basePath ([9eef8a7](https://github.com/dyte-in/docs/commit/9eef8a7590a2a259284f3077969ceedb58d59fcb))
-- remove broken link in react-native ([1255656](https://github.com/dyte-in/docs/commit/1255656aed62347529128b8db1fd2479e48a98bc))
+- remove broken link in mobile-application ([1255656](https://github.com/dyte-in/docs/commit/1255656aed62347529128b8db1fd2479e48a98bc))
 - remove dummy blog posts and add test post ([68017da](https://github.com/dyte-in/docs/commit/68017dac2854545933214712f54c3aa005bdb2a4))
 - remove navbar lv0 items, update docsearch config ([89e05e2](https://github.com/dyte-in/docs/commit/89e05e2c2fccf8ae61a11ac30a328448874cbcf0))
 - remove yarn.lock ([b97a1dc](https://github.com/dyte-in/docs/commit/b97a1dc4b9ea2d8a6046e56d541ff188dc4df694))
@@ -644,7 +644,7 @@
 - proper links to sample apps ([067ace0](https://github.com/dyte-in/docs/commit/067ace06c9d6a5802d40c264041cf63d374c8275))
 - redesigned navbar, icons changed, markdown sample added ([52a1427](https://github.com/dyte-in/docs/commit/52a14273b40e6c048ed54125dc0533ee4ec2cbb0))
 - remove basePath as warning is given for invalid basePath ([9eef8a7](https://github.com/dyte-in/docs/commit/9eef8a7590a2a259284f3077969ceedb58d59fcb))
-- remove broken link in react-native ([f4602a7](https://github.com/dyte-in/docs/commit/f4602a763f0fb2be7f32d9d04b25b34f2b747fcd))
+- remove broken link in mobile-application ([f4602a7](https://github.com/dyte-in/docs/commit/f4602a763f0fb2be7f32d9d04b25b34f2b747fcd))
 - remove dummy blog posts and add test post ([68017da](https://github.com/dyte-in/docs/commit/68017dac2854545933214712f54c3aa005bdb2a4))
 - remove navbar lv0 items, update docsearch config ([7cb9483](https://github.com/dyte-in/docs/commit/7cb94837fb5f3b1ad31708ee55e3a6aec9be2fe9))
 - remove yarn.lock ([b97a1dc](https://github.com/dyte-in/docs/commit/b97a1dc4b9ea2d8a6046e56d541ff188dc4df694))
