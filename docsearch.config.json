@@ -13,9 +13,9 @@
       "selectors_key": "cli"
     },
     {
-      "url": "https://docs.dyte.io/react-ui-kit",
-      "tags": "react-ui-kit",
-      "selectors_key": "react-ui-kit"
+      "url": "https://docs.dyte.io/web-application",
+      "tags": "web-application",
+      "selectors_key": "web-application"
     },
     {
       "url": "https://docs.dyte.io/ui-kit",
@@ -38,9 +38,9 @@
       "selectors_key": "web-core"
     },
     {
-      "url": "https://docs.dyte.io/react-native",
-      "tags": "react-native",
-      "selectors_key": "react-native"
+      "url": "https://docs.dyte.io/mobile-application",
+      "tags": "mobile-application",
+      "selectors_key": "mobile-application"
     },
     {
       "url": "https://docs.dyte.io/android",
@@ -124,7 +124,7 @@
       "lvl6": "article h6",
       "text": "article p, article li, article td:last-child"
     },
-    "react-ui-kit": {
+    "web-application": {
       "lvl0": {
         "selector": "",
         "global": true,
@@ -180,7 +180,7 @@
       "lvl6": "article h6",
       "text": "article p, article li, article td:last-child"
     },
-    "react-native": {
+    "mobile-application": {
       "lvl0": {
         "selector": "",
         "global": true,
