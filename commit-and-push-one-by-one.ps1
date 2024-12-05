@@ -25,3 +25,4 @@ foreach ($file in $files) {
 }
 
 Write-Output "All changes committed and pushed one by one!"
+
