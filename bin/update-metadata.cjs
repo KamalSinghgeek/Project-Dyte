@@ -13,7 +13,7 @@ const prefixes = {
   'flutter-core': 'Flutter Core',
   'angular-ui-kit': 'Angular UI Kit',
   'ui-kit': 'UI Kit',
-  'react-ui-kit': 'React UI Kit',
+  'web-application': 'React UI Kit',
   cli: 'CLI',
   'ios-core': 'iOS Core',
   ios: 'iOS',
