@@ -33,7 +33,7 @@
     "@docusaurus/theme-live-codeblock": "^3.6.3",
     "@docusaurus/theme-mermaid": "^3.6.3",
     "@dytesdk/docs-ai-react": "^2.0.1",
-    "@dytesdk/react-ui-kit": "^1.66.0",
+    "@dytesdk/web-application": "^1.66.0",
     "@dytesdk/react-web-core": "file:modules/dytesdk-react-web-core-1.36.4-stripped.1.tgz",
     "@dytesdk/web-core": "file:modules/dytesdk-web-core-1.31.0-stripped.1.tgz",
     "@fluentui/react-icons": "^2.0.204",
