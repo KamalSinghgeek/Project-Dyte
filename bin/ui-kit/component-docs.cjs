@@ -12,7 +12,7 @@ const {
 
 const basePaths = {
   // core: 'docs/ui-kit/components',
-  react: 'docs/react-ui-kit/components',
+  react: 'docs/web-application/components',
   angular: 'docs/angular-ui-kit/components',
 };
 
