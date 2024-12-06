@@ -45,7 +45,6 @@
   padding-bottom: 2rem;
 }
 
-
 .multiSectionContainer_bYm7 {
   padding: 3rem;
 }
@@ -56,8 +55,6 @@
     padding-bottom: 8rem;
   }
 }
-
-
 
 .multiSectionContainer_bYm7 {
   display: flex;
@@ -71,6 +68,7 @@
 
 img {
   border-radius: 0.1rem;
+  padding: 3px;
 }
 
 nav.navbar {
