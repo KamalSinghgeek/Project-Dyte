@@ -18,7 +18,7 @@ interface Resource {
 
 const ALL_RESOURCES: Resource[] = [
   {
-    url: '/guides',
+    url: 'https://fleetstack.in/article/how-do-i-install-gps-software-on-my-own-server',
     type: 'blog',
     title: 'Just Install on your own server',
     description:
@@ -27,12 +27,48 @@ const ALL_RESOURCES: Resource[] = [
     duration: '3 min',
   },
   {
-    url: '/guides',
+    url: 'https://fleetstack.in/article/how-do-i-use-the-gps-software-free-trial-fleet-stack',
     type: 'blog',
-    title: 'SuperAdmin Configuration',
+    title: 'Use GPS Software Free Trial',
     description:
-      'Effortlessly manage users, permissions, and settings with SuperAdmin Configuration in Fleet Stack GPS software for streamlined fleet operations.',
-    image: '/static/landing-page/resources/Guide_Image_2.jpg',
+      'The GPS software free trial offered by Fleet Stack is an excellent opportunity for businesses to try out the platform and see how it can benefit their operations.',
+    image: '/static/landing-page/resources/Guide_Image_6.png',
+    duration: '2 min',
+  },
+  {
+    url: 'https://fleetstack.in/article/slef-hosted-vs-white-label-gps-vehicle-tracking-software',
+    type: 'blog',
+    title: 'Self Hosted VS White Label',
+    description:
+      'In this article, we’re going to break down the differences between self-hosted GPS tracking software and white label GPS tracking software.',
+    image: '/static/landing-page/resources/Guide_Image_7.png',
+    duration: '3 min',
+  },
+  {
+    url: 'https://fleetstack.in/article/9-reasons-to-choose-self-hosted-gps-software-over-white-label-solutions',
+    type: 'blog',
+    title: 'Reasons To Choose Self-Hosted',
+    description:
+      'In this article, we will discuss nine key reasons why businesses should consider self-hosted GPS software for their location-based needs.',
+    image: '/static/landing-page/resources/Guide_Image_8.png',
+    duration: '4 min',
+  },
+  {
+    url: 'https://fleetstack.in/article/the-inspirational-journey-of-fleet-stack-simplifying-gps-software-for-all',
+    type: 'blog',
+    title: 'Inspirational Story of Fleet Stack',
+    description:
+      'It all began with someone who dreamt of starting a business and relied on GPS software to bring that vision to life.',
+    image: '/static/landing-page/resources/Guide_Image_9.png',
+    duration: '5 min',
+  },
+  {
+    url: 'https://fleetstack.in/article/how-do-i-create-my-own-white-label-gps-software',
+    type: 'blog',
+    title: 'Create White Label GPS Software',
+    description:
+      'This comprehensive guide will take you through the steps and considerations involved in building your white-label GPS software.',
+    image: '/static/landing-page/resources/Guide_Image_10.png',
     duration: '3 min',
   },
   {
@@ -56,7 +92,7 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://www.youtube.com/watch?v=RTya4g_SALU',
     type: 'video',
-    title: 'FleetStack: Track Route History',
+    title: 'Fleet Stack: Track Route History',
     description:
       'Learn to analyze your fleet past routes effectively with FleetStack History Tracking tutorial, ensuring better operational insights.',
     image: '/static/landing-page/resources/Guide_Image_5.jpg',
