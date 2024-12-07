@@ -60,46 +60,7 @@ function Safety({ className }) {
   );
 }
 
-function Status({ className }) {
-  const [status, setStatus] = useState({
-    indicator: 'none',
-    description: '',
-  });
 
-  useEffect(() => {
-    if (typeof StatusPage !== 'undefined') {
-      // eslint-disable-next-line no-undef
-      var sp = new StatusPage.page({ page: 'wjlxrzb5h09l' });
-      sp.status({
-        success: function (data) {
-          setStatus({
-            // indicator: data.status.indicator,
-            // description: data.status.description,
-          });
-        },
-      });
-    }
-  }, []);
-
-  return (
-    <Link
-      href="/"
-      className={clsx(
-        'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline dark:hover:bg-[#474747]',
-        className
-      )}
-      target="_blank"
-    >
-      <div
-        className={clsx(
-          'h-4 w-4 rounded-full bg-[#2DB002]',
-          status.indicator === 'none' ? 'bg-[#2DB002]' : 'bg-yellow-500'
-        )}
-      ></div>
-      <div>{status.description}</div>
-    </Link>
-  );
-}
 
 function Links({ name, links, isAccordion }) {
   //To control accordion in footer
@@ -160,11 +121,11 @@ export default function Footer() {
           />
 
           <Safety className="hidden lg:flex" />
-          <BrowserOnly>
+          {/* <BrowserOnly>
             {() => {
               return <Status className="lg:hidden" />;
             }}
-          </BrowserOnly>
+          </BrowserOnly> */}
         </div>
 
         <div className="grid grid-cols-2 gap-6 gap-y-12 md:justify-between lg:flex lg:flex-wrap">
@@ -178,11 +139,11 @@ export default function Footer() {
         <hr className="my-12 !bg-gray-300 dark:!bg-[#999]" />
 
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-0">
-          <BrowserOnly>
+          {/* <BrowserOnly>
             {() => {
               return <Status className="hidden lg:flex" />;
             }}
-          </BrowserOnly>
+          </BrowserOnly> */}
           <Safety className="flex w-full max-w-full lg:hidden" />
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
@@ -192,20 +153,6 @@ export default function Footer() {
             >
               Privacy Policy
             </Link>
-            {/* &bull;
-            <Link
-              href="https://dyte.io/terms-of-service"
-              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
-            >
-              Terms of Service
-            </Link> */}
-            {/* &bull;
-            <Link
-              href="https://dyte.io/website-terms-of-use"
-              className="text-inherit hover:text-black hover:underline dark:text-[#999] dark:hover:text-[#2160fd]"
-            >
-              Website Terms of Use
-            </Link> */}
             <span className="text-inherit dark:text-[#999]">
               &copy; {new Date().getFullYear()} Fleet Stack
             </span>
