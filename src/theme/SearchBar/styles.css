@@ -68,7 +68,7 @@
 
 img {
   border-radius: 0.1rem;
-  padding: 3px;
+  padding: 2px;
 }
 
 nav.navbar {
@@ -77,6 +77,6 @@ nav.navbar {
 
 .navbar--fixed-top {
   position: sticky;
-  top: 3px;
+  top: 1px;
   z-index: var(--ifm-z-index-fixed);
 }
