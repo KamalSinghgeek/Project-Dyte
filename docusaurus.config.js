@@ -269,11 +269,11 @@ const plugins = [
         }
 
         if (path.startsWith(''))
-          if (path.startsWith('/web-core/livestreaming')) {
+          if (path.startsWith('/')) {
             return [
               path.replace(
-                '/web-core/livestreaming',
-                '/web-core/livestreaming/livestream-apis'
+                '/',
+                '/'
               ),
             ];
           }
@@ -293,11 +293,11 @@ const plugins = [
             ),
           ];
         }
-        if (path.startsWith('/web-core/stage')) {
+        if (path.startsWith('/')) {
           return [
             path.replace(
-              '/web-core/stage',
-              '/web-core/livestreaming/state-management-apis'
+              '/',
+              '/'
             ),
           ];
         }
