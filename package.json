@@ -56,7 +56,7 @@
     "@docusaurus/tsconfig": "^3.6.3",
     "@styled-icons/boxicons-logos": "^10.47.0",
     "@swc/core": "^1.10.1",
-    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
     "@typescript-eslint/parser": "^8.18.0",
     "autoprefixer": "^10.4.20",
     "buffer": "^6.0.3",
